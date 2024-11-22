@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export APACHE_ROOT='/var/www/html'
+
 cd ~/tmp
 
 # Set FTP addresses for NCBI RefSeq genomes of all Ebolavirus species
