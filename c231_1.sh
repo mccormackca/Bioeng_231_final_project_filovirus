@@ -83,6 +83,11 @@ do
   jbrowse add-assembly $file --out $APACHE_ROOT/jbrowse2 --load copy --type=indexedFasta
 done
 
+for file in *.gff.gz
+do
+	gunzip "$file"
+done
+
 # Loop through all .gff files
 for file in *.gff; do
     # Define sorted output file name
