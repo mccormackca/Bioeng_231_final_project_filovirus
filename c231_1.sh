@@ -5,7 +5,6 @@ export APACHE_ROOT='/var/www/html'
 
 cd ~/tmp
 
-
 #export ftp addresses for the NCBI RefSeq genomes of all ebolavirus species
 export ZAIRE_ROOT=https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/505/GCF_000848505.1_ViralProj14703/
 export BOMBALI_ROOT=https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/505/815/GCF_003505815.1_ASM350581v1/
@@ -116,5 +115,4 @@ jbrowse add-track Orthoebolavirus_taiense_sorted.gff.gz --out $APACHE_ROOT/jbrow
 
 jbrowse add-track Orthoebolavirus_zairense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_zairense.fna,Orthoebolavirus_zairense_cds_from_genomic.fna,Orthoebolavirus_zairense_rna_from_genomic.fna --force
 
-
-
+jbrowse text-index --out $APACHE_ROOT/jbrowse2
