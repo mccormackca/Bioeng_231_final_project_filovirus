@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~/tmp
+
 # Set FTP addresses for NCBI RefSeq genomes of all Ebolavirus species
 declare -A ROOTS=(
     [ZAIRE]="https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/505/GCF_000848505.1_ViralProj14703/"
