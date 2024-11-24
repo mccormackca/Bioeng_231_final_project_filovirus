@@ -289,9 +289,9 @@
         "metadata": {
           "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
           "Strain": "Mayinga",
-          "Host": "",
-          "Original_genome_source": "",
-          "Isolation_location":"",
+          "Host": "Human (Homo Sapiens)",
+          "Original_genome_source": "https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+          "Isolation_location":"Democratic Republic of Congo (Zaire)",
           "Isolation_year":"1976"
         "adapter": {
           "type": "IndexedFastaAdapter",
@@ -311,6 +311,13 @@
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "Orthoebolavirus_zairense_cds_from_genomic.fna-ReferenceSequenceTrack",
+        "metadata": {
+          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+          "Strain": "Mayinga",
+          "Host": "Human (Homo Sapiens)",
+          "Original_genome_source": "https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+          "Isolation_location":"Democratic Republic of Congo (Zaire)",
+          "Isolation_year":"1976"
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -329,6 +336,13 @@
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "Orthoebolavirus_zairense_rna_from_genomic.fna-ReferenceSequenceTrack",
+        "metadata": {
+          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+          "Strain": "Mayinga",
+          "Host": "Human (Homo Sapiens)",
+          "Original_genome_source": "https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+          "Isolation_location":"Democratic Republic of Congo (Zaire)",
+          "Isolation_year":"1976"
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -500,8 +514,21 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_zairense_sorted.gff",
-      "name": "Orthoebolavirus_zairense_sorted.gff",
+      "trackId": "ncbi_RefSeq_sorted_gff_Orthoebolavirus_zairense",
+      "name": "Orthoebolavirus zairense NCBI RefSeq with Feature Annotation",
+      "assemblyNames": [
+      "Orthoebolavirus_zairense"
+  ],
+  "category": [
+    "Annotation"
+  ],
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+        "Strain": "Mayinga",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+        "Isolation_location":"Democratic Republic of Congo (Zaire)",
+        "Isolation_year":"1976"
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
