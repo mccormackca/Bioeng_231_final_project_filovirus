@@ -646,7 +646,7 @@
         "Orthoebolavirus_zairense_rna_from_genomic.fna"
       ]
     }
-  ]
+  ],
   "plugins": [
     {
       "name": "Protein3d",
