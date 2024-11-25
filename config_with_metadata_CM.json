@@ -290,7 +290,7 @@
           "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
           "Strain": "Mayinga",
           "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+          "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
           "Isolation_location":"Democratic Republic of Congo (Zaire)",
           "Isolation_year":"1976"
         "adapter": {
@@ -315,7 +315,7 @@
           "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
           "Strain": "Mayinga",
           "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+          "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
           "Isolation_location":"Democratic Republic of Congo (Zaire)",
           "Isolation_year":"1976"
         "adapter": {
@@ -340,7 +340,7 @@
           "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
           "Strain": "Mayinga",
           "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+          "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
           "Isolation_location":"Democratic Republic of Congo (Zaire)",
           "Isolation_year":"1976"
         "adapter": {
@@ -526,7 +526,7 @@
         "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
         "Strain": "Mayinga",
         "Host": "Human (Homo Sapiens)",
-        "Original_genome_source": "https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+          "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
         "Isolation_location":"Democratic Republic of Congo (Zaire)",
         "Isolation_year":"1976"
       "adapter": {
