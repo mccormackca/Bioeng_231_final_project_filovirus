@@ -1,1 +1,5 @@
 #refer to Caroline's branch to see how to make alignments using clustalo
+
+#run clustalo to generate a Newick file of a phylogenetic tree
+clustalo --infile=all_genomes_aligned.fasta --outfmt=clustal --output-order=tree-order --guidetree-out=tree.nwk
+
