@@ -33,3 +33,10 @@ cat Orthoebolavirus_bombaliense.fna Orthoebolavirus_restonense.fna Orthoebolavir
 #run clustalo 
 clustalo -i all_genomes.fna -o all_genomes_aligned.fasta
 ```
+Using IQ-tree to get a proper phylogenetic alignment tree:
+```
+sudo apt-get install iqtree
+##has a y/n prompt about memory usage. Choose y to intall
+iqtree2 -s all_genomes_aligned.fasta
+#gives output all_genomes_aligned.fasta.treefile
+```
