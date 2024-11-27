@@ -40,3 +40,4 @@ sudo apt-get install iqtree
 iqtree2 -s all_genomes_aligned.fasta
 #gives output all_genomes_aligned.fasta.treefile
 ```
+With the config_with_metadata_and_MSAview.json (renamed to config.json) prepared--in Jbrowse, click Tools > plugin store, then find MSAview and click "install"
