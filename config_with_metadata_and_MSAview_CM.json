@@ -293,6 +293,7 @@
           "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
           "Isolation_location":"Democratic Republic of Congo (Zaire)",
           "Isolation_year":"1976"
+        },
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -318,6 +319,7 @@
           "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
           "Isolation_location":"Democratic Republic of Congo (Zaire)",
           "Isolation_year":"1976"
+        },
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -343,6 +345,7 @@
           "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
           "Isolation_location":"Democratic Republic of Congo (Zaire)",
           "Isolation_year":"1976"
+        },
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -529,6 +532,7 @@
           "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
         "Isolation_location":"Democratic Republic of Congo (Zaire)",
         "Isolation_year":"1976"
+      },
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
@@ -817,13 +821,11 @@
         "Orthoebolavirus_zairense_rna_from_genomic.fna"
       ]
     }
-  ]
-  {
+  ],
   "plugins": [
     {
-    "name": "MsaView",
-    "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js"
+      "name": "MsaView",
+      "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js"
     }
   ]
-}
 }
