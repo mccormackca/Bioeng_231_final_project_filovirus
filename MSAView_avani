@@ -1,5 +1,10 @@
-#refer to Caroline's branch to see how to make alignments using clustalo
+# run clustalo on each protein of interest
+clustalo -i NP.fasta -o NP_aligned.fasta
+clustalo -i vp24.fasta -o vp24_aligned.fasta 
+clustalo -i vp35.fasta -o vp35_aligned.fasta
 
-#run clustalo to generate a Newick file of a phylogenetic tree
-clustalo --infile=all_genomes_aligned.fasta --outfmt=clustal --output-order=tree-order --guidetree-out=tree.nwk
+# run iqtree on each aligned protein of interest to generate a treefile
+iqtree2 -s NP_aligned.fasta
+iqtree2 -s vp24_aligned.fasta 
+iqtree2 -s vp35_aligned.fasta
 
