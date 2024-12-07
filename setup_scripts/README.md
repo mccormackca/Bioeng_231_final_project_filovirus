@@ -23,6 +23,8 @@ export APACHE_ROOT='/var/www/html
 
 ./setup_scripts/start_apache_server.sh
 
+./import_ncbi_data.sh
+
 (ads plugins and other default state for convenience)
 (enter y to overwrite)
 cp config.json $APACHE_ROOT/jbrowse2 -i
