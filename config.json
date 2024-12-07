@@ -1,650 +1,706 @@
 {
-  "assemblies": [
-    {
-      "name": "Orthoebolavirus_bombaliense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_bombaliense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_bombaliense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_bombaliense.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_restonense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_restonense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_restonense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_restonense.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_sudanense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_sudanense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_sudanense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_sudanense.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_taiense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_taiense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_taiense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_taiense.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_zairense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_zairense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_zairense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_zairense.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_bombaliense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_bombaliense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_bombaliense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_bombaliense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_restonense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_restonense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_restonense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_restonense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_sudanense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_sudanense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_sudanense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_taiense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_taiense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_taiense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_taiense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_zairense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_zairense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_zairense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_zairense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_restonense_rna_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_restonense_rna_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_restonense_rna_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_restonense_rna_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_sudanense_rna_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_sudanense_rna_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_sudanense_rna_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_taiense_rna_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_taiense_rna_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_taiense_rna_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_taiense_rna_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_zairense_rna_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_zairense_rna_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_zairense_rna_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_zairense_rna_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
+  "assemblies": [{
+    "name": "Orthoebolavirus_bombaliense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_bombaliense.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_bombaliense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_bombaliense.fna.fai",
+          "locationType": "UriLocation"
         }
       }
     }
-  ],
+  }, {
+    "name": "Orthoebolavirus_bombaliense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_bombaliense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_bombaliense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_bombaliense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_restonense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_restonense.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_restonense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_restonense.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_restonense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_restonense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_restonense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_restonense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_restonense_rna_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_restonense_rna_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_restonense_rna_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_restonense_rna_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_sudanense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_sudanense.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_sudanense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_sudanense.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_sudanense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_sudanense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_sudanense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_sudanense_rna_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_sudanense_rna_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_sudanense_rna_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_taiense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_taiense.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_taiense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_taiense.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_taiense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_taiense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_taiense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_taiense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_taiense_rna_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_taiense_rna_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_taiense_rna_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_taiense_rna_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_zairense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_zairense.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_zairense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_zairense.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_zairense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_zairense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_zairense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_zairense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_zairense_rna_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_zairense_rna_from_genomic.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_zairense_rna_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_zairense_rna_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_bombaliense_protein.faa",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_bombaliense_protein.faa-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_bombaliense_protein.faa",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_bombaliense_protein.faa.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_restonense_protein.faa",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_restonense_protein.faa-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_restonense_protein.faa",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_restonense_protein.faa.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_sudanense_protein.faa",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_sudanense_protein.faa-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_sudanense_protein.faa",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_sudanense_protein.faa.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_taiense_protein.faa",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_taiense_protein.faa-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_taiense_protein.faa",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_taiense_protein.faa.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_zairense_protein.faa",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_zairense_protein.faa-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_zairense_protein.faa",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_zairense_protein.faa.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }],
   "configuration": {},
   "connections": [],
   "defaultSession": {
     "name": "New Session"
   },
-  "tracks": [
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_bombaliense_sorted.gff",
-      "name": "Orthoebolavirus_bombaliense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_bombaliense_sorted.gff.gz",
+  "tracks": [{
+    "type": "FeatureTrack",
+    "trackId": "Orthoebolavirus_bombaliense_sorted.gff",
+    "name": "Orthoebolavirus_bombaliense_sorted.gff",
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_bombaliense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_bombaliense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_bombaliense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_bombaliense.fna",
-        "Orthoebolavirus_bombaliense_cds_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_restonense_sorted.gff",
-      "name": "Orthoebolavirus_restonense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_restonense_sorted.gff.gz",
+    "assemblyNames": [
+      "Orthoebolavirus_bombaliense.fna",
+      "Orthoebolavirus_bombaliense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "FeatureTrack",
+    "trackId": "Orthoebolavirus_restonense_sorted.gff",
+    "name": "Orthoebolavirus_restonense_sorted.gff",
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_restonense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_restonense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_restonense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_restonense.fna",
-        "Orthoebolavirus_restonense_cds_from_genomic.fna",
-        "Orthoebolavirus_restonense_rna_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_sudanense_sorted.gff",
-      "name": "Orthoebolavirus_sudanense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_sudanense_sorted.gff.gz",
+    "assemblyNames": [
+      "Orthoebolavirus_restonense.fna",
+      "Orthoebolavirus_restonense_cds_from_genomic.fna",
+      "Orthoebolavirus_restonense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "FeatureTrack",
+    "trackId": "Orthoebolavirus_sudanense_sorted.gff",
+    "name": "Orthoebolavirus_sudanense_sorted.gff",
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_sudanense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_sudanense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_sudanense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_sudanense.fna",
-        "Orthoebolavirus_sudanense_cds_from_genomic.fna",
-        "Orthoebolavirus_sudanense_rna_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_taiense_sorted.gff",
-      "name": "Orthoebolavirus_taiense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_taiense_sorted.gff.gz",
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense.fna",
+      "Orthoebolavirus_sudanense_cds_from_genomic.fna",
+      "Orthoebolavirus_sudanense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "FeatureTrack",
+    "trackId": "Orthoebolavirus_taiense_sorted.gff",
+    "name": "Orthoebolavirus_taiense_sorted.gff",
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_taiense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_taiense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_taiense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_taiense.fna",
-        "Orthoebolavirus_taiense_cds_from_genomic.fna",
-        "Orthoebolavirus_taiense_rna_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_zairense_sorted.gff",
-      "name": "Orthoebolavirus_zairense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_zairense_sorted.gff.gz",
+    "assemblyNames": [
+      "Orthoebolavirus_taiense.fna",
+      "Orthoebolavirus_taiense_cds_from_genomic.fna",
+      "Orthoebolavirus_taiense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "FeatureTrack",
+    "trackId": "Orthoebolavirus_zairense_sorted.gff",
+    "name": "Orthoebolavirus_zairense_sorted.gff",
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_zairense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_zairense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_zairense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_zairense.fna",
-        "Orthoebolavirus_zairense_cds_from_genomic.fna",
-        "Orthoebolavirus_zairense_rna_from_genomic.fna"
-      ]
-    }
-  ],
-  "aggregateTextSearchAdapters": [
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_restonense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_restonense_cds_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_sudanense_cds_from_genomic.fna"
-      ]
+    "assemblyNames": [
+      "Orthoebolavirus_zairense.fna",
+      "Orthoebolavirus_zairense_cds_from_genomic.fna",
+      "Orthoebolavirus_zairense_rna_from_genomic.fna"
+    ]
+  }],
+  "aggregateTextSearchAdapters": [{
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_bombaliense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_taiense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_taiense_cds_from_genomic.fna"
-      ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense.fna.ixx",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_zairense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_zairense_cds_from_genomic.fna"
-      ]
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense.fna_meta.json",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_bombaliense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_bombaliense.fna"
-      ]
+    "assemblyNames": [
+      "Orthoebolavirus_bombaliense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_bombaliense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_restonense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_restonense.fna"
-      ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_sudanense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_sudanense.fna"
-      ]
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_taiense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_taiense.fna"
-      ]
+    "assemblyNames": [
+      "Orthoebolavirus_bombaliense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_restonense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_zairense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_zairense.fna"
-      ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense.fna.ixx",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_bombaliense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_bombaliense_cds_from_genomic.fna"
-      ]
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense.fna_meta.json",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_restonense_rna_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_restonense_rna_from_genomic.fna"
-      ]
+    "assemblyNames": [
+      "Orthoebolavirus_restonense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_restonense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_sudanense_rna_from_genomic.fna"
-      ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_taiense_rna_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_taiense_rna_from_genomic.fna"
-      ]
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_zairense_rna_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_zairense_rna_from_genomic.fna"
-      ]
-    }
-  ]
+    "assemblyNames": [
+      "Orthoebolavirus_restonense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_restonense_rna_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_restonense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_sudanense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_taiense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_taiense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_taiense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_taiense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_taiense_rna_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_taiense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_zairense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_zairense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_zairense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_zairense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_zairense_rna_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_zairense_rna_from_genomic.fna"
+    ]
+  }],
+  "plugins": [{
+    "name": "MsaView",
+    "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js"
+  }, {
+    "name": "Protein3d",
+    "url": "https://unpkg.com/jbrowse-plugin-protein3d/dist/jbrowse-plugin-protein3d.umd.production.min.js"
+  }]
 }
