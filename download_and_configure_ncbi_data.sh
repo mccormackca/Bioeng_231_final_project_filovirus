@@ -40,6 +40,13 @@ wget $RESTON_ROOT/GCF_000854085.1_ViralProj15006_rna_from_genomic.fna.gz
 wget $SUDAN_ROOT/GCF_000855585.1_ViralProj15012_rna_from_genomic.fna.gz
 wget $TAI_ROOT/GCF_000888475.1_ViralProj51257_rna_from_genomic.fna.gz
 
+# rename protein files to human-readable names
+mv GCF_000848505.1_ViralProj14703_protein.faa Orthoebolavirus_zairense_protein.faa
+mv GCF_003505815.1_ASM350581v1_protein.faa Orthoebolavirus_bombaliense_protein.faa
+mv GCF_000854085.1_ViralProj15006_protein.faa Orthoebolavirus_restonense_protein.faa
+mv GCF_000855585.1_ViralProj15012_protein.faa Orthoebolavirus_sudanense_protein.faa
+mv GCF_000888475.1_ViralProj51257_protein.faa Orthoebolavirus_taiense_protein.faa
+
 #gunzip all the gz files
 for file in *.fna.gz
 do
