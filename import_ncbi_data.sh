@@ -154,28 +154,28 @@ for file in *.gff; do
     tabix -f "${sorted_file}.gz"
 done
 
-for file in *.gpff.gz
-do
-  gunzip "$file"
-done
+# for file in *.gpff.gz
+# do
+#   gunzip "$file"
+# done
 
 # Loop through all .gpff files
-for file in *.gpff; do
-    # Define sorted output file name
-    sorted_file="${file%.gpff}_sorted.gpff"
+# for file in *.gpff; do
+#     # Define sorted output file name
+#     sorted_file="${file%.gpff}_sorted.gpff"
     
-    # Sort the GFF file
-    echo "Sorting $file..."
-    jbrowse sort-gff "$file" > "$sorted_file"
+#     # Sort the GFF file
+#     echo "Sorting $file..."
+#     jbrowse sort-gff "$file" > "$sorted_file"
     
-    # Compress the sorted file
-    echo "Compressing $sorted_file..."
-    bgzip "$sorted_file"
+#     # Compress the sorted file
+#     echo "Compressing $sorted_file..."
+#     bgzip "$sorted_file"
     
-    # Index the compressed file
-    echo "Indexing ${sorted_file}.gz..."
-    tabix -f "${sorted_file}.gz"
-done
+#     # Index the compressed file
+#     echo "Indexing ${sorted_file}.gz..."
+#     tabix -f "${sorted_file}.gz"
+# done
 
 jbrowse add-track Orthoebolavirus_bombaliense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_bombaliense.fna,Orthoebolavirus_bombaliense_cds_from_genomic.fna --force
 
