@@ -281,16 +281,16 @@
         "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
         "Isolation_location": "Democratic Republic of Congo (Zaire)",
         "Isolation_year": "1976",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_zairense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_zairense.fna.fai",
-            "locationType": "UriLocation"
-          }
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_zairense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_zairense.fna.fai",
+          "locationType": "UriLocation"
         }
       }
     }
@@ -306,16 +306,16 @@
         "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
         "Isolation_location": "Democratic Republic of Congo (Zaire)",
         "Isolation_year": "1976",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_zairense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_zairense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_zairense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_zairense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
         }
       }
     }
@@ -331,16 +331,16 @@
         "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
         "Isolation_location": "Democratic Republic of Congo (Zaire)",
         "Isolation_year": "1976",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_zairense_rna_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_zairense_rna_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_zairense_rna_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_zairense_rna_from_genomic.fna.fai",
+          "locationType": "UriLocation"
         }
       }
     }
