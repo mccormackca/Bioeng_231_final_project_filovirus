@@ -1,82 +1,286 @@
 {
-  "assemblies": [
-    {
-      "name": "Orthoebolavirus_bombaliense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_bombaliense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_bombaliense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_bombaliense.fna.fai",
-            "locationType": "UriLocation"
-          }
+  "assemblies": [{
+    "name": "Orthoebolavirus_bombaliense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_bombaliense.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003505815.1/",
+        "Host": "Angolan free-tailed bat, Mops condylurus",
+        "Original_genome_source": "Goldstein, T., Anthony, S.J., Gbakima, A. et al. The discovery of Bombali virus adds further support for bats as hosts of ebolaviruses. Nat Microbiol 3, 1084–1089 (2018). https://doi.org/10.1038/s41564-018-0227-2",
+        "Isolation_location": "Sierra Leone",
+        "Isolation_year": "2016"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_bombaliense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_bombaliense.fna.fai",
+          "locationType": "UriLocation"
         }
       }
-    },
-    {
-      "name": "Orthoebolavirus_restonense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_restonense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_restonense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_restonense.fna.fai",
-            "locationType": "UriLocation"
-          }
+    }
+  }, {
+    "name": "Orthoebolavirus_bombaliense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_bombaliense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003505815.1/",
+        "Host": "Angolan free-tailed bat, Mops condylurus",
+        "Original_genome_source": "Goldstein, T., Anthony, S.J., Gbakima, A. et al. The discovery of Bombali virus adds further support for bats as hosts of ebolaviruses. Nat Microbiol 3, 1084–1089 (2018). https://doi.org/10.1038/s41564-018-0227-2",
+        "Isolation_location": "Sierra Leone",
+        "Isolation_year": "2016"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_bombaliense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_bombaliense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
         }
       }
-    },
-    {
-      "name": "Orthoebolavirus_sudanense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_sudanense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_sudanense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_sudanense.fna.fai",
-            "locationType": "UriLocation"
-          }
+    }
+  }, {
+    "name": "Orthoebolavirus_restonense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_restonense.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
+        "Strain": "Pennsylvania",
+        "Host": "Crab-eating macaque (Macaca fascicularis)",
+        "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
+        "Isolation_location": "USA",
+        "Isolation_year": "1989"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_restonense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_restonense.fna.fai",
+          "locationType": "UriLocation"
         }
       }
-    },
-    {
-      "name": "Orthoebolavirus_taiense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_taiense.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_taiense.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_taiense.fna.fai",
-            "locationType": "UriLocation"
-          }
+    }
+  }, {
+    "name": "Orthoebolavirus_restonense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_restonense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
+        "Strain": "Pennsylvania",
+        "Host": "Crab-eating macaque (Macaca fascicularis)",
+        "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
+        "Isolation_location": "USA",
+        "Isolation_year": "1989"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_restonense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_restonense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
         }
       }
-    },
-    {
-      "name": "Orthoebolavirus_zairense.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_zairense.fna-ReferenceSequenceTrack",
+    }
+  }, {
+    "name": "Orthoebolavirus_restonense_rna_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_restonense_rna_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
+        "Strain": "Pennsylvania",
+        "Host": "Crab-eating macaque (Macaca fascicularis)",
+        "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
+        "Isolation_location": "USA",
+        "Isolation_year": "1989"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_restonense_rna_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_restonense_rna_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_sudanense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
+        "Strain": "Gulu",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
+        "Isolation_location": "Uganda",
+        "Isolation_year": "2000"
+      },
+      "trackId": "Orthoebolavirus_sudanense.fna-ReferenceSequenceTrack",
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_sudanense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_sudanense.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_sudanense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
+        "Strain": "Gulu",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
+        "Isolation_location": "Uganda",
+        "Isolation_year": "2000"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_sudanense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_sudanense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_sudanense_rna_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
+        "Strain": "Gulu",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
+        "Isolation_location": "Uganda",
+        "Isolation_year": "2000"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_sudanense_rna_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_sudanense_rna_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_taiense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_taiense.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
+        "Isolation_location": "Cote d'Ivoire",
+        "Isolation_year": "1994"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_taiense.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_taiense.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_taiense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_taiense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
+        "Isolation_location": "Cote d'Ivoire",
+        "Isolation_year": "1994"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_taiense_cds_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_taiense_cds_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_taiense_rna_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_taiense_rna_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
+        "Isolation_location": "Cote d'Ivoire",
+        "Isolation_year": "1994"
+      },
+      "adapter": {
+        "type": "IndexedFastaAdapter",
+        "fastaLocation": {
+          "uri": "Orthoebolavirus_taiense_rna_from_genomic.fna",
+          "locationType": "UriLocation"
+        },
+        "faiLocation": {
+          "uri": "Orthoebolavirus_taiense_rna_from_genomic.fna.fai",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  }, {
+    "name": "Orthoebolavirus_zairense.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_zairense.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+        "Strain": "Mayinga",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+        "Isolation_location": "Democratic Republic of Congo (Zaire)",
+        "Isolation_year": "1976",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -89,84 +293,19 @@
           }
         }
       }
-    },
-    {
-      "name": "Orthoebolavirus_bombaliense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_bombaliense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_bombaliense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_bombaliense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_restonense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_restonense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_restonense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_restonense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_sudanense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_sudanense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_sudanense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_taiense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_taiense_cds_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_taiense_cds_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_taiense_cds_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_zairense_cds_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_zairense_cds_from_genomic.fna-ReferenceSequenceTrack",
+    }
+  }, {
+    "name": "Orthoebolavirus_zairense_cds_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_zairense_cds_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+        "Strain": "Mayinga",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+        "Isolation_location": "Democratic Republic of Congo (Zaire)",
+        "Isolation_year": "1976",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -179,66 +318,19 @@
           }
         }
       }
-    },
-    {
-      "name": "Orthoebolavirus_restonense_rna_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_restonense_rna_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_restonense_rna_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_restonense_rna_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_sudanense_rna_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_sudanense_rna_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_sudanense_rna_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_taiense_rna_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_taiense_rna_from_genomic.fna-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri": "Orthoebolavirus_taiense_rna_from_genomic.fna",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "Orthoebolavirus_taiense_rna_from_genomic.fna.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "Orthoebolavirus_zairense_rna_from_genomic.fna",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "Orthoebolavirus_zairense_rna_from_genomic.fna-ReferenceSequenceTrack",
+    }
+  }, {
+    "name": "Orthoebolavirus_zairense_rna_from_genomic.fna",
+    "sequence": {
+      "type": "ReferenceSequenceTrack",
+      "trackId": "Orthoebolavirus_zairense_rna_from_genomic.fna-ReferenceSequenceTrack",
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+        "Strain": "Mayinga",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+        "Isolation_location": "Democratic Republic of Congo (Zaire)",
+        "Isolation_year": "1976",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
@@ -252,112 +344,174 @@
         }
       }
     }
-  ],
+  }],
   "configuration": {},
   "connections": [],
   "defaultSession": {
     "name": "New Session"
   },
-  "tracks": [
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_bombaliense_sorted.gff",
-      "name": "Orthoebolavirus_bombaliense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_bombaliense_sorted.gff.gz",
+  "tracks": [{
+    "type": "FeatureTrack",
+    "trackId": "ncbi_RefSeq_sorted_gff_Orthoebolavirus_bombaliense",
+    "name": "Orthoebolavirus bombaliense NCBI RefSeq with Feature Annotation",
+    "assemblyNames": [
+      "Orthoebolavirus_bombaliense"
+    ],
+    "category": [
+      "Annotation"
+    ],
+    "metadata": {
+      "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003505815.1/",
+      "Host": "Angolan free-tailed bat, Mops condylurus",
+      "Original_genome_source": "Goldstein, T., Anthony, S.J., Gbakima, A. et al. The discovery of Bombali virus adds further support for bats as hosts of ebolaviruses. Nat Microbiol 3, 1084–1089 (2018). https://doi.org/10.1038/s41564-018-0227-2",
+      "Isolation_location": "Sierra Leone",
+      "Isolation_year": "2016"
+    },
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_bombaliense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_bombaliense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_bombaliense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_bombaliense.fna",
-        "Orthoebolavirus_bombaliense_cds_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_restonense_sorted.gff",
-      "name": "Orthoebolavirus_restonense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_restonense_sorted.gff.gz",
+    "assemblyNames": [
+      "Orthoebolavirus_bombaliense.fna",
+      "Orthoebolavirus_bombaliense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "FeatureTrack",
+    "trackId": "ncbi_RefSeq_sorted_gff_Orthoebolavirus_restonense",
+    "name": "Orthoebolavirus restonense NCBI RefSeq with Feature Annotation",
+    "assemblyNames": [
+      "Orthoebolavirus_restonense"
+    ],
+    "category": [
+      "Annotation"
+    ],
+    "metadata": {
+      "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
+      "Strain": "Pennsylvania",
+      "Host": "Crab-eating macaque (Macaca fascicularis)",
+      "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
+      "Isolation_location": "USA",
+      "Isolation_year": "1989"
+    },
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_restonense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_restonense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_restonense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_restonense.fna",
-        "Orthoebolavirus_restonense_cds_from_genomic.fna",
-        "Orthoebolavirus_restonense_rna_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_sudanense_sorted.gff",
-      "name": "Orthoebolavirus_sudanense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_sudanense_sorted.gff.gz",
+    "assemblyNames": [
+      "Orthoebolavirus_restonense.fna",
+      "Orthoebolavirus_restonense_cds_from_genomic.fna",
+      "Orthoebolavirus_restonense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "FeatureTrack",
+    "trackId": "ncbi_RefSeq_sorted_gff_Orthoebolavirus_sudanense",
+    "name": "Orthoebolavirus sudanense NCBI RefSeq with Feature Annotation",
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense"
+    ],
+    "category": [
+      "Annotation"
+    ],
+    "metadata": {
+      "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
+      "Strain": "Gulu",
+      "Host": "Human (Homo Sapiens)",
+      "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
+      "Isolation_location": "Uganda",
+      "Isolation_year": "2000"
+    },
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_sudanense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_sudanense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_sudanense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_sudanense.fna",
-        "Orthoebolavirus_sudanense_cds_from_genomic.fna",
-        "Orthoebolavirus_sudanense_rna_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_taiense_sorted.gff",
-      "name": "Orthoebolavirus_taiense_sorted.gff",
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "Orthoebolavirus_taiense_sorted.gff.gz",
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense.fna",
+      "Orthoebolavirus_sudanense_cds_from_genomic.fna",
+      "Orthoebolavirus_sudanense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "FeatureTrack",
+    "trackId": "ncbi_RefSeq_sorted_gff_Orthoebolavirus_taiense",
+    "name": "Orthoebolavirus taiense NCBI RefSeq with Feature Annotation",
+    "assemblyNames": [
+      "Orthoebolavirus_taiense"
+    ],
+    "category": [
+      "Annotation"
+    ],
+    "metadata": {
+      "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
+      "Host": "Human (Homo Sapiens)",
+      "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
+      "Isolation_location": "Cote d'Ivoire",
+      "Isolation_year": "1994"
+    },
+    "adapter": {
+      "type": "Gff3TabixAdapter",
+      "gffGzLocation": {
+        "uri": "Orthoebolavirus_taiense_sorted.gff.gz",
+        "locationType": "UriLocation"
+      },
+      "index": {
+        "location": {
+          "uri": "Orthoebolavirus_taiense_sorted.gff.gz.tbi",
           "locationType": "UriLocation"
         },
-        "index": {
-          "location": {
-            "uri": "Orthoebolavirus_taiense_sorted.gff.gz.tbi",
-            "locationType": "UriLocation"
-          },
-          "indexType": "TBI"
-        }
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_taiense.fna",
-        "Orthoebolavirus_taiense_cds_from_genomic.fna",
-        "Orthoebolavirus_taiense_rna_from_genomic.fna"
-      ]
+        "indexType": "TBI"
+      }
     },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Orthoebolavirus_zairense_sorted.gff",
-      "name": "Orthoebolavirus_zairense_sorted.gff",
+    "assemblyNames": [
+      "Orthoebolavirus_taiense.fna",
+      "Orthoebolavirus_taiense_cds_from_genomic.fna",
+      "Orthoebolavirus_taiense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "FeatureTrack",
+    "trackId": "ncbi_RefSeq_sorted_gff_Orthoebolavirus_zairense",
+    "name": "Orthoebolavirus zairense NCBI RefSeq with Feature Annotation",
+    "assemblyNames": [
+      "Orthoebolavirus_zairense"
+    ],
+    "category": [
+      "Annotation"
+    ],
+    "metadata": {
+      "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+      "Strain": "Mayinga",
+      "Host": "Human (Homo Sapiens)",
+      "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+      "Isolation_location": "Democratic Republic of Congo (Zaire)",
+      "Isolation_year": "1976",
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
@@ -378,273 +532,258 @@
         "Orthoebolavirus_zairense_rna_from_genomic.fna"
       ]
     }
-  ],
-  "aggregateTextSearchAdapters": [
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_restonense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_restonense_cds_from_genomic.fna"
-      ]
+  }],
+  "aggregateTextSearchAdapters": [{
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_bombaliense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_sudanense_cds_from_genomic.fna"
-      ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense.fna.ixx",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_taiense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_taiense_cds_from_genomic.fna"
-      ]
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense.fna_meta.json",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_zairense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_zairense_cds_from_genomic.fna"
-      ]
+    "assemblyNames": [
+      "Orthoebolavirus_bombaliense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_bombaliense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_bombaliense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_bombaliense.fna"
-      ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_restonense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_restonense.fna"
-      ]
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_sudanense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_sudanense.fna"
-      ]
+    "assemblyNames": [
+      "Orthoebolavirus_bombaliense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_restonense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_taiense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_taiense.fna"
-      ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense.fna.ixx",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_zairense.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_zairense.fna"
-      ]
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense.fna_meta.json",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_bombaliense_cds_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_bombaliense_cds_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_bombaliense_cds_from_genomic.fna"
-      ]
+    "assemblyNames": [
+      "Orthoebolavirus_restonense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_restonense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_restonense_rna_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_restonense_rna_from_genomic.fna"
-      ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_sudanense_rna_from_genomic.fna"
-      ]
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_taiense_rna_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_taiense_rna_from_genomic.fna"
-      ]
+    "assemblyNames": [
+      "Orthoebolavirus_restonense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_restonense_rna_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna.ix",
+      "locationType": "UriLocation"
     },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "Orthoebolavirus_zairense_rna_from_genomic.fna-index",
-      "ixFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Orthoebolavirus_zairense_rna_from_genomic.fna"
-      ]
-    }
-  ]
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_restonense_rna_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_restonense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_sudanense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_sudanense_rna_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_sudanense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_taiense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_taiense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_taiense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_taiense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_taiense_rna_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_taiense_rna_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_taiense_rna_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_zairense.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_zairense.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_zairense_cds_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_cds_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_zairense_cds_from_genomic.fna"
+    ]
+  }, {
+    "type": "TrixTextSearchAdapter",
+    "textSearchAdapterId": "Orthoebolavirus_zairense_rna_from_genomic.fna-index",
+    "ixFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna.ix",
+      "locationType": "UriLocation"
+    },
+    "ixxFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna.ixx",
+      "locationType": "UriLocation"
+    },
+    "metaFilePath": {
+      "uri": "trix/Orthoebolavirus_zairense_rna_from_genomic.fna_meta.json",
+      "locationType": "UriLocation"
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_zairense_rna_from_genomic.fna"
+    ]
+  }]
 }
