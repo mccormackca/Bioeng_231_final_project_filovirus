@@ -160,7 +160,7 @@ do
 done
 
 # Loop through all .gpff files
-for file in *.pgff; do
+for file in *.gpff; do
     # Define sorted output file name
     sorted_file="${file%.gpff}_sorted.gpff"
     
