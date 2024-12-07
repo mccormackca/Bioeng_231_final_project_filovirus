@@ -47,13 +47,19 @@ wget $RESTON_ROOT/GCF_000854085.1_ViralProj15006_protein.faa.gz
 wget $SUDAN_ROOT/GCF_000855585.1_ViralProj15012_protein.faa.gz
 wget $TAI_ROOT/GCF_000888475.1_ViralProj51257_protein.faa.gz
 
-#gunzip all the gz files
+# gunzip all the gz files
+
 for file in *.fna.gz
 do
   gunzip "$file"
 done
 
-#rename the files to human-readable names
+for file in *.faa.gz
+do
+  gunzip "$file"
+done
+
+# rename the files to human-readable names
 
 mv GCF_000848505.1_ViralProj14703_genomic.fna Orthoebolavirus_zairense.fna
 mv GCF_000848505.1_ViralProj14703_genomic.gff.gz Orthoebolavirus_zairense.gff.gz
@@ -93,7 +99,17 @@ do
   samtools faidx "$file"
 done
 
+for file in *.faa
+do
+  samtools faidx "$file"
+done
+
 for file in *.fna
+do
+  jbrowse add-assembly $file --out $APACHE_ROOT/jbrowse2 --load copy --type=indexedFasta
+done
+
+for file in *.faa
 do
   jbrowse add-assembly $file --out $APACHE_ROOT/jbrowse2 --load copy --type=indexedFasta
 done
@@ -131,4 +147,4 @@ jbrowse add-track Orthoebolavirus_taiense_sorted.gff.gz --out $APACHE_ROOT/jbrow
 
 jbrowse add-track Orthoebolavirus_zairense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_zairense.fna,Orthoebolavirus_zairense_cds_from_genomic.fna,Orthoebolavirus_zairense_rna_from_genomic.fna --force
 
-jbrowse text-index --out $APACHE_ROOT/jbrowse2
+jbrowse text-index --out $APACHE_ROOT/jbrowse2 --force
