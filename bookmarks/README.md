@@ -11,9 +11,10 @@ The Bookmarks Feature in JBrowse2 allows users to save and manage specific genom
 - Locate the Bookmarks Panel on the right-hand side of the screen.
 
 ### Add a Bookmark:
-1. Navigate to the region you wish to bookmark using the genome view.
+1. Navigate to the region you wish to bookmark by dragging the region you wish to highlight.
 2. Click the label field in the bookmarks panel and type a name for your bookmark.
 3. Press **Enter** to save the bookmark.
+<img width="1506" alt="Screenshot 2024-12-08 at 13 29 19" src="https://github.com/user-attachments/assets/9f5be6ec-ff99-462e-ab13-193f85aaa911">
 
 ### Edit a Bookmark:
 1. Double-click on an existing bookmark name in the bookmarks panel.
@@ -22,6 +23,7 @@ The Bookmarks Feature in JBrowse2 allows users to save and manage specific genom
 ### Delete a Bookmark:
 1. Hover over the bookmark you wish to remove.
 2. Click the trash icon next to the bookmark name to delete it.
+<img width="1512" alt="Screenshot 2024-12-08 at 13 29 38" src="https://github.com/user-attachments/assets/69e4e994-a96e-41b6-92ef-634359e9cb91">
 
 ### Export and Import Bookmarks:
 - To export bookmarks, click the menu icon in the bookmarks panel and select Export Bookmarks. Save the file in the desired format.
