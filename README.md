@@ -1,6 +1,6 @@
 # [Title]
 
-[1-4 sentences about the project and this page, with a link to download instructions README]
+[1-4 sentences or more about the project and this page, with a link to download instructions README]
 
 ## Live Genome browser
 
