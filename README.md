@@ -11,7 +11,7 @@
 ### Protein structures & amino acids sequences
 
 ### Dotplots & synteny
-- <a href="http://18.191.252.86/jbrowse2/?session=share-hVtI5QngK2&password=ohvG5" target="_blank">WIP</a>
+- <a href="http://18.191.252.86/jbrowse2/?session=share-pIMekohoa7&password=lC4cd" target="_blank">WIP</a>
 
 ## [To delete] Graveyard
 
