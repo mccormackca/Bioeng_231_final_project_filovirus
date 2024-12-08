@@ -47,13 +47,6 @@ wget $RESTON_ROOT/GCF_000854085.1_ViralProj15006_protein.faa.gz
 wget $SUDAN_ROOT/GCF_000855585.1_ViralProj15012_protein.faa.gz
 wget $TAI_ROOT/GCF_000888475.1_ViralProj51257_protein.faa.gz
 
-# download amino acid annotation GFF files using wget
-wget $ZAIRE_ROOT/GCF_000848505.1_ViralProj14703_protein.gpff.gz
-wget $BOMBALI_ROOT/GCF_003505815.1_ASM350581v1_protein.gpff.gz
-wget $RESTON_ROOT/GCF_000854085.1_ViralProj15006_protein.gpff.gz
-wget $SUDAN_ROOT/GCF_000855585.1_ViralProj15012_protein.gpff.gz
-wget $TAI_ROOT/GCF_000888475.1_ViralProj51257_protein.gpff.gz
-
 # gunzip all the gz files
 
 for file in *.fna.gz
@@ -96,20 +89,10 @@ mv GCF_000855585.1_ViralProj15012_rna_from_genomic.fna Orthoebolavirus_sudanense
 mv GCF_000888475.1_ViralProj51257_rna_from_genomic.fna Orthoebolavirus_taiense_rna_from_genomic.fna
 
 mv GCF_000848505.1_ViralProj14703_protein.faa Orthoebolavirus_zairense_protein.faa
-mv GCF_000848505.1_ViralProj14703_protein.gpff.gz Orthoebolavirus_zairense_protein.gpff.gz
-
 mv GCF_003505815.1_ASM350581v1_protein.faa Orthoebolavirus_bombaliense_protein.faa
-mv GCF_003505815.1_ASM350581v1_protein.gpff.gz Orthoebolavirus_bombaliense_protein.gpff.gz
-
 mv GCF_000854085.1_ViralProj15006_protein.faa Orthoebolavirus_restonense_protein.faa
-mv GCF_000854085.1_ViralProj15006_protein.gpff.gz Orthoebolavirus_restonense_protein.gpff.gz
-
 mv GCF_000855585.1_ViralProj15012_protein.faa Orthoebolavirus_sudanense_protein.faa
-mv GCF_000855585.1_ViralProj15012_protein.gpff.gz Orthoebolavirus_sudanense_protein.gpff.gz
-
 mv GCF_000888475.1_ViralProj51257_protein.faa Orthoebolavirus_taiense_protein.faa
-mv GCF_000888475.1_ViralProj51257_protein.gpff.gz Orthoebolavirus_taiense_protein.gpff.gz
-
 
 for file in *.fna
 do
@@ -153,29 +136,6 @@ for file in *.gff; do
     echo "Indexing ${sorted_file}.gz..."
     tabix -f "${sorted_file}.gz"
 done
-
-# for file in *.gpff.gz
-# do
-#   gunzip "$file"
-# done
-
-# Loop through all .gpff files
-# for file in *.gpff; do
-#     # Define sorted output file name
-#     sorted_file="${file%.gpff}_sorted.gpff"
-    
-#     # Sort the GFF file
-#     echo "Sorting $file..."
-#     jbrowse sort-gff "$file" > "$sorted_file"
-    
-#     # Compress the sorted file
-#     echo "Compressing $sorted_file..."
-#     bgzip "$sorted_file"
-    
-#     # Index the compressed file
-#     echo "Indexing ${sorted_file}.gz..."
-#     tabix -f "${sorted_file}.gz"
-# done
 
 jbrowse add-track Orthoebolavirus_bombaliense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_bombaliense.fna,Orthoebolavirus_bombaliense_cds_from_genomic.fna --force
 
