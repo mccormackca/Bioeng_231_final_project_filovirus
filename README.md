@@ -6,9 +6,10 @@ The Orthoebolavirus Jbrowse2 Genome Browser is a tool for visualizing and explor
 ## Global Linear Genome View
 
 Visualize an overview of *Orthoebolavirus* genomes and their genomic features with the <a href="http://18.191.252.86/jbrowse2/?session=share-PIqzGabFTA&password=aRGxI" target="_blank">global linear genome view</a>.
-***Change link to have the bookmarks in it*** Bookmarks are included to highlight proteins of particular interest.
 
-Metadata has been added describing the original source of the RefSeq genome assembly, including the host species, strain (if applicable), location, year, and reference. This information is available in  "About track" for all <img width="1440" alt="View_metadata" src="https://github.com/user-attachments/assets/c8b28ea6-39b8-4334-9f10-f7d0ce1b05d2">
+Metadata has been added describing the original source of the RefSeq genome assembly, including the host species, strain (if applicable), location, year, and reference. This information is available in  "About track" for all genomic DNA, RNA and DNA cds, and protein files. <img width="1440" alt="View_metadata" src="https://github.com/user-attachments/assets/c8b28ea6-39b8-4334-9f10-f7d0ce1b05d2">
+
+Bookmarks highlighting proteins of interest in the feature tracks are available as BED files that can be imported using the instructions in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/blob/main/bookmarks/README.md" target="_blank">bookmarks/README.md</a>
 
 ## Protein Structure Plugin
 - <a href="http://18.191.252.86/jbrowse2/?session=share-P4_UgTL0io&password=pLM0v" target="_blank">Reston ebolavirus VP35</a>
