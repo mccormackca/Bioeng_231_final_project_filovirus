@@ -31,5 +31,7 @@ The Bookmarks Feature in JBrowse2 allows users to save and manage specific genom
 
 ### Here’s an example of bookmarked regions in the JBrowse2 interface:
 NC_039345.1:5000-10000: Example region for analysis.
+
 ![Annotated Screenshot](NC_006432.1:15000-20000: Important region annotated with transcription factor binding sites..png)
+
 NC_006432.1:15000-20000: Important region annotated with transcription factor binding sites.
