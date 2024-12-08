@@ -1,6 +1,7 @@
 # Global Linear Genome View <!-- Largest -->
 
 **Avani Ghate, Aziz Kamoun, Jieshan Liu, Caroline McCormack**
+
 The Bookmarks Feature in JBrowse2 allows users to save and manage specific genomic regions of interest for quick reference. This feature is particularly useful for annotating and revisiting important regions in the genome.
 
 ## How to Use Bookmarks
