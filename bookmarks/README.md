@@ -15,7 +15,6 @@ The Bookmarks Feature in JBrowse2 allows users to save and manage specific genom
 2. Click the label field in the bookmarks panel and type a name for your bookmark.
 3. Press **Enter** to save the bookmark.
 <img width="1506" alt="Screenshot 2024-12-08 at 13 29 19" src="https://github.com/user-attachments/assets/9f5be6ec-ff99-462e-ab13-193f85aaa911">
-
 ### Edit a Bookmark:
 1. Double-click on an existing bookmark name in the bookmarks panel.
 2. Modify the label or genomic coordinates as needed, then save the changes.
