@@ -9,6 +9,7 @@ The Bookmarks Feature in JBrowse2 allows users to save and manage specific genom
 ### Access the Bookmarks Panel:
 - Open the JBrowse2 genome browser interface.
 - Locate the Bookmarks Panel on the right-hand side of the screen.
+<img width="1509" alt="Screenshot 2024-12-08 at 14 40 15" src="https://github.com/user-attachments/assets/029b44e4-6f21-4d46-a1df-bdf5a99a0a44">
 
 ### Add a Bookmark:
 1. Navigate to the region you wish to bookmark by dragging the region you wish to highlight.
