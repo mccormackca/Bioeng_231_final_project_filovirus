@@ -18,7 +18,9 @@ The Bookmarks Feature in JBrowse2 allows users to save and manage specific genom
 
 ### Edit a Bookmark:
 1. Double-click on an existing bookmark name in the bookmarks panel.
-2. Modify the label or genomic coordinates as needed, then save the changes.
+2. Modify the label, color, or genomic coordinates as needed, then save the changes.
+Example to modify the color: simply click the colored square icon under the "Highlight" column, then choose the color you'd like to bookmark the region:
+<img width="1512" alt="Screenshot 2024-12-08 at 13 57 09" src="https://github.com/user-attachments/assets/5a5df79b-e6bd-4245-ae75-e70e0a7215e1">
 
 ### Delete a Bookmark:
 1. Hover over the bookmark you wish to remove.
