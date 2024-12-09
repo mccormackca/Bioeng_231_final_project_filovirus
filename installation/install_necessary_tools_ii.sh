@@ -19,3 +19,7 @@ sudo apt install wget apache2
 
 # samtools and tabix are tools for processing and indexing genome and genome annotation files.
 brew install samtools htslib
+
+# minimap2 is a package used for mapping and alignment between collections of DNA sequences
+# documentation: https://lh3.github.io/minimap2/minimap2.html#4
+sudo apt -y install minimap2
