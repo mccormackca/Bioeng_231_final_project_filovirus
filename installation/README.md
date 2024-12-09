@@ -9,8 +9,10 @@ Instructions on EC2 instance setup are out of scope of this guide. Please refer 
 ### Set (memorable) password in root
 
 ```
+# Access root
 sudo su -
 
+# Will prompt to enter new password twice
 passwd ubuntu
 
 exit
