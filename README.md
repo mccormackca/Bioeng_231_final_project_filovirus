@@ -11,7 +11,7 @@ The Orthoebolavirus [JBrowse2 Genome Browser](https://jbrowse.org/jb2/) is a too
 5. Dotplots and Synteny
 
 ## Installation
-Instructions for setting up and configuring this instance of the JBrowse2 the genome browser can be found in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/blob/main/setup_scripts/README.md" target="_blank">setup_scripts/README.md</a>.
+Instructions for setting up and configuring this instance of the JBrowse2 the genome browser can be found in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/blob/main/installation/README.md" target="_blank">installation/README.md</a>.
 
 ## Global Linear Genome View with Feature Annotations
 
