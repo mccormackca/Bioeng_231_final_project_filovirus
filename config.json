@@ -8,9 +8,9 @@
         "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003505815.1/",
         "Host": "Angolan free-tailed bat, Mops condylurus",
         "Original_genome_source": "Goldstein, T., Anthony, S.J., Gbakima, A. et al. The discovery of Bombali virus adds further support for bats as hosts of ebolaviruses. Nat Microbiol 3, 1084–1089 (2018). https://doi.org/10.1038/s41564-018-0227-2",
-        "Isolation_location":"Sierra Leone",
-        "Isolation_year":"2016"
-  },
+        "Isolation_location": "Sierra Leone",
+        "Isolation_year": "2016"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -32,9 +32,9 @@
         "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003505815.1/",
         "Host": "Angolan free-tailed bat, Mops condylurus",
         "Original_genome_source": "Goldstein, T., Anthony, S.J., Gbakima, A. et al. The discovery of Bombali virus adds further support for bats as hosts of ebolaviruses. Nat Microbiol 3, 1084–1089 (2018). https://doi.org/10.1038/s41564-018-0227-2",
-        "Isolation_location":"Sierra Leone",
-        "Isolation_year":"2016"
-  },
+        "Isolation_location": "Sierra Leone",
+        "Isolation_year": "2016"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -53,13 +53,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_restonense.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
-          "Strain": "Pennsylvania",
-          "Host": "Crab-eating macaque (Macaca fascicularis)",
-          "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
-          "Isolation_location":"USA",
-          "Isolation_year":"1989"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
+        "Strain": "Pennsylvania",
+        "Host": "Crab-eating macaque (Macaca fascicularis)",
+        "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
+        "Isolation_location": "USA",
+        "Isolation_year": "1989"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -78,13 +78,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_restonense_cds_from_genomic.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
-          "Strain": "Pennsylvania",
-          "Host": "Crab-eating macaque (Macaca fascicularis)",
-          "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
-          "Isolation_location":"USA",
-          "Isolation_year":"1989"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
+        "Strain": "Pennsylvania",
+        "Host": "Crab-eating macaque (Macaca fascicularis)",
+        "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
+        "Isolation_location": "USA",
+        "Isolation_year": "1989"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -103,13 +103,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_restonense_rna_from_genomic.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
-          "Strain": "Pennsylvania",
-          "Host": "Crab-eating macaque (Macaca fascicularis)",
-          "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
-          "Isolation_location":"USA",
-          "Isolation_year":"1989"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
+        "Strain": "Pennsylvania",
+        "Host": "Crab-eating macaque (Macaca fascicularis)",
+        "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
+        "Isolation_location": "USA",
+        "Isolation_year": "1989"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -128,13 +128,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_sudanense.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
-          "Strain": "Gulu",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
-          "Isolation_location":"Uganda",
-          "Isolation_year":"2000"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
+        "Strain": "Gulu",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
+        "Isolation_location": "Uganda",
+        "Isolation_year": "2000"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -153,13 +153,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_sudanense_cds_from_genomic.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
-          "Strain": "Gulu",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
-          "Isolation_location":"Uganda",
-          "Isolation_year":"2000"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
+        "Strain": "Gulu",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
+        "Isolation_location": "Uganda",
+        "Isolation_year": "2000"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -178,13 +178,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_sudanense_rna_from_genomic.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
-          "Strain": "Gulu",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
-          "Isolation_location":"Uganda",
-          "Isolation_year":"2000"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000855585.1/",
+        "Strain": "Gulu",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
+        "Isolation_location": "Uganda",
+        "Isolation_year": "2000"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -203,12 +203,12 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_taiense.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
-          "Isolation_location":"Cote d'Ivoire",
-          "Isolation_year":"1994"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
+        "Isolation_location": "Cote d'Ivoire",
+        "Isolation_year": "1994"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -227,12 +227,12 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_taiense_cds_from_genomic.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
-          "Isolation_location":"Cote d'Ivoire",
-          "Isolation_year":"1994"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
+        "Isolation_location": "Cote d'Ivoire",
+        "Isolation_year": "1994"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -251,12 +251,12 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_taiense_rna_from_genomic.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
-          "Isolation_location":"Cote d'Ivoire",
-          "Isolation_year":"1994"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
+        "Isolation_location": "Cote d'Ivoire",
+        "Isolation_year": "1994"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -275,13 +275,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_zairense.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
-          "Strain": "Mayinga",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
-          "Isolation_location":"Democratic Republic of Congo (Zaire)",
-          "Isolation_year":"1976"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+        "Strain": "Mayinga",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+        "Isolation_location": "Democratic Republic of Congo (Zaire)",
+        "Isolation_year": "1976"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -300,13 +300,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_zairense_cds_from_genomic.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
-          "Strain": "Mayinga",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
-          "Isolation_location":"Democratic Republic of Congo (Zaire)",
-          "Isolation_year":"1976"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+        "Strain": "Mayinga",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+        "Isolation_location": "Democratic Republic of Congo (Zaire)",
+        "Isolation_year": "1976"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -325,13 +325,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_zairense_rna_from_genomic.fna-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
-          "Strain": "Mayinga",
-          "Host": "Human (Homo Sapiens)",
-          "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
-          "Isolation_location":"Democratic Republic of Congo (Zaire)",
-          "Isolation_year":"1976"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000848505.1/",
+        "Strain": "Mayinga",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
+        "Isolation_location": "Democratic Republic of Congo (Zaire)",
+        "Isolation_year": "1976"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -353,8 +353,8 @@
         "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003505815.1/",
         "Host": "Angolan free-tailed bat, Mops condylurus",
         "Original_genome_source": "Goldstein, T., Anthony, S.J., Gbakima, A. et al. The discovery of Bombali virus adds further support for bats as hosts of ebolaviruses. Nat Microbiol 3, 1084–1089 (2018). https://doi.org/10.1038/s41564-018-0227-2",
-        "Isolation_location":"Sierra Leone",
-        "Isolation_year":"2016"
+        "Isolation_location": "Sierra Leone",
+        "Isolation_year": "2016"
       },
       "adapter": {
         "type": "IndexedFastaAdapter",
@@ -374,13 +374,13 @@
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_restonense_protein.faa-ReferenceSequenceTrack",
       "metadata": {
-          "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
-          "Strain": "Pennsylvania",
-          "Host": "Crab-eating macaque (Macaca fascicularis)",
-          "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
-          "Isolation_location":"USA",
-          "Isolation_year":"1989"
-        },
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000854085.1/",
+        "Strain": "Pennsylvania",
+        "Host": "Crab-eating macaque (Macaca fascicularis)",
+        "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
+        "Isolation_location": "USA",
+        "Isolation_year": "1989"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -403,9 +403,9 @@
         "Strain": "Gulu",
         "Host": "Human (Homo Sapiens)",
         "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
-        "Isolation_location":"Uganda",
-        "Isolation_year":"2000"
-        },
+        "Isolation_location": "Uganda",
+        "Isolation_year": "2000"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -423,13 +423,13 @@
     "sequence": {
       "type": "ReferenceSequenceTrack",
       "trackId": "Orthoebolavirus_taiense_protein.faa-ReferenceSequenceTrack",
-       "metadata": {
-         "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
-         "Host": "Human (Homo Sapiens)",
-         "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
-         "Isolation_location":"Cote d'Ivoire",
-         "Isolation_year":"1994"
-        },
+      "metadata": {
+        "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
+        "Host": "Human (Homo Sapiens)",
+        "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
+        "Isolation_location": "Cote d'Ivoire",
+        "Isolation_year": "1994"
+      },
       "adapter": {
         "type": "IndexedFastaAdapter",
         "fastaLocation": {
@@ -452,8 +452,8 @@
         "Strain": "Mayinga",
         "Host": "Human (Homo Sapiens)",
         "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
-        "Isolation_location":"Democratic Republic of Congo (Zaire)",
-        "Isolation_year":"1976"
+        "Isolation_location": "Democratic Republic of Congo (Zaire)",
+        "Isolation_year": "1976"
       },
       "adapter": {
         "type": "IndexedFastaAdapter",
@@ -481,8 +481,8 @@
       "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003505815.1/",
       "Host": "Angolan free-tailed bat, Mops condylurus",
       "Original_genome_source": "Goldstein, T., Anthony, S.J., Gbakima, A. et al. The discovery of Bombali virus adds further support for bats as hosts of ebolaviruses. Nat Microbiol 3, 1084–1089 (2018). https://doi.org/10.1038/s41564-018-0227-2",
-      "Isolation_location":"Sierra Leone",
-      "Isolation_year":"2016"
+      "Isolation_location": "Sierra Leone",
+      "Isolation_year": "2016"
     },
     "adapter": {
       "type": "Gff3TabixAdapter",
@@ -511,8 +511,8 @@
       "Strain": "Pennsylvania",
       "Host": "Crab-eating macaque (Macaca fascicularis)",
       "Original_genome_source": "Groseth, A., Ströher, U., Theriault, S. & Feldmann, H. Molecular characterization of an isolate from the 1989/90 epizootic of Ebola virus Reston among macaques imported into the United States. Virus Research 87, 155–163 (2002).",
-      "Isolation_location":"USA",
-      "Isolation_year":"1989"
+      "Isolation_location": "USA",
+      "Isolation_year": "1989"
     },
     "adapter": {
       "type": "Gff3TabixAdapter",
@@ -542,8 +542,8 @@
       "Strain": "Gulu",
       "Host": "Human (Homo Sapiens)",
       "Original_genome_source": "Sanchez, A. & Rollin, P. E. Complete genome sequence of an Ebola virus (Sudan species) responsible for a 2000 outbreak of human disease in Uganda. Virus Research 113, 16–25 (2005).",
-      "Isolation_location":"Uganda",
-      "Isolation_year":"2000"
+      "Isolation_location": "Uganda",
+      "Isolation_year": "2000"
     },
     "adapter": {
       "type": "Gff3TabixAdapter",
@@ -572,8 +572,8 @@
       "source": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000888475.1/",
       "Host": "Human (Homo Sapiens)",
       "Original_genome_source": "Towner, J. S. et al. Newly Discovered Ebola Virus Associated with Hemorrhagic Fever Outbreak in Uganda. PLoS Pathog 4, e1000212 (2008).",
-      "Isolation_location":"Cote d'Ivoire",
-      "Isolation_year":"1994"
+      "Isolation_location": "Cote d'Ivoire",
+      "Isolation_year": "1994"
     },
     "adapter": {
       "type": "Gff3TabixAdapter",
@@ -603,8 +603,8 @@
       "Strain": "Mayinga",
       "Host": "Human (Homo Sapiens)",
       "Original_genome_source": "GenBank direct submission, https://www.ncbi.nlm.nih.gov/nuccore/AF086833",
-      "Isolation_location":"Democratic Republic of Congo (Zaire)",
-      "Isolation_year":"1976"
+      "Isolation_location": "Democratic Republic of Congo (Zaire)",
+      "Isolation_year": "1976"
     },
     "adapter": {
       "type": "Gff3TabixAdapter",
