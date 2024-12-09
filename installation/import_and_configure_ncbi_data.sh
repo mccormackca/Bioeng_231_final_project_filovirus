@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export APACHE_ROOT='/var/www/html'
-
 # navigate to the temporary folder for downloading files before upload
 cd ~/tmp
 
@@ -94,6 +92,8 @@ mv GCF_000854085.1_ViralProj15006_protein.faa Orthoebolavirus_restonense_protein
 mv GCF_000855585.1_ViralProj15012_protein.faa Orthoebolavirus_sudanense_protein.faa
 mv GCF_000888475.1_ViralProj51257_protein.faa Orthoebolavirus_taiense_protein.faa
 
+# index fasta files and add them as assemblies to jbrowse
+
 for file in *.fna
 do
   samtools faidx "$file"
@@ -113,13 +113,16 @@ for file in *.faa
 do
   jbrowse add-assembly $file --out $APACHE_ROOT/jbrowse2 --load copy --type=indexedFasta
 done
+
+# unzup all gff files
 
 for file in *.gff.gz
 do
   gunzip "$file"
 done
 
-# Loop through all .gff files
+# sort and index gff files
+
 for file in *.gff; do
     # Define sorted output file name
     sorted_file="${file%.gff}_sorted.gff"
@@ -137,12 +140,12 @@ for file in *.gff; do
     tabix -f "${sorted_file}.gz"
 done
 
-# Generate paf file for 
+# generate paf file for dotplot and synteny view
 sudo apt install minimap
 
 minimap2 -x map-ont Orthoebolavirus_bombaliense.fna Orthoebolavirus_restonense.fna > bombaliense_restonese_comparison.paf
 
-# Add tracks to jbrowse
+# add tracks to jbrowse
 
 jbrowse add-track Orthoebolavirus_bombaliense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_bombaliense.fna,Orthoebolavirus_bombaliense_cds_from_genomic.fna --force
 
