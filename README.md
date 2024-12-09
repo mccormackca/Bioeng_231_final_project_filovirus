@@ -18,4 +18,4 @@
 - <a href="http://18.191.252.86/jbrowse2/?session=share-rIOKlyay49&password=B9ZPu" target="_blank">Begin exploring here</a>
 
 ### Dotplots & synteny
-- <a href="http://18.191.252.86/jbrowse2/?session=share-pIMekohoa7&password=lC4cd" target="_blank">WIP</a>
+- <a href="http://18.191.252.86/jbrowse2/?session=share-O7LGR6_SBo&password=zEFH8" target="_blank">Begin exploring here</a>
