@@ -33,7 +33,8 @@ wget $TAI_ROOT/GCF_000888475.1_ViralProj51257_cds_from_genomic.fna.gz
 
 # download rna_from_genomic FASTA files using wget
 wget $ZAIRE_ROOT/GCF_000848505.1_ViralProj14703_rna_from_genomic.fna.gz
-wget $BOMBALI_ROOT/GCF_003505815.1_ASM350581v1_rna_from_genomic.fna.gz
+# uncomment the below line if this assembly ever adds rna sequences
+# wget $BOMBALI_ROOT/GCF_003505815.1_ASM350581v1_rna_from_genomic.fna.gz
 wget $RESTON_ROOT/GCF_000854085.1_ViralProj15006_rna_from_genomic.fna.gz
 wget $SUDAN_ROOT/GCF_000855585.1_ViralProj15012_rna_from_genomic.fna.gz
 wget $TAI_ROOT/GCF_000888475.1_ViralProj51257_rna_from_genomic.fna.gz
@@ -81,7 +82,8 @@ mv GCF_000855585.1_ViralProj15012_cds_from_genomic.fna Orthoebolavirus_sudanense
 mv GCF_000888475.1_ViralProj51257_cds_from_genomic.fna Orthoebolavirus_taiense_cds_from_genomic.fna
 
 mv GCF_000848505.1_ViralProj14703_rna_from_genomic.fna Orthoebolavirus_zairense_rna_from_genomic.fna
-mv GCF_003505815.1_ASM350581v1_rna_from_genomic.fna Orthoebolavirus_bombaliense_rna_from_genomic.fna
+# uncomment the below line if this assembly ever adds rna sequences
+# mv GCF_003505815.1_ASM350581v1_rna_from_genomic.fna Orthoebolavirus_bombaliense_rna_from_genomic.fna
 mv GCF_000854085.1_ViralProj15006_rna_from_genomic.fna Orthoebolavirus_restonense_rna_from_genomic.fna
 mv GCF_000855585.1_ViralProj15012_rna_from_genomic.fna Orthoebolavirus_sudanense_rna_from_genomic.fna
 mv GCF_000888475.1_ViralProj51257_rna_from_genomic.fna Orthoebolavirus_taiense_rna_from_genomic.fna
