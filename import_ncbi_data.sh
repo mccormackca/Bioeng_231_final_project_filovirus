@@ -137,6 +137,13 @@ for file in *.gff; do
     tabix -f "${sorted_file}.gz"
 done
 
+# Generate paf file for 
+sudo apt install minimap
+
+minimap2 -x map-ont Orthoebolavirus_bombaliense.fna Orthoebolavirus_restonense.fna > bombaliense_restonese_comparison.paf
+
+# Add tracks to jbrowse
+
 jbrowse add-track Orthoebolavirus_bombaliense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_bombaliense.fna,Orthoebolavirus_bombaliense_cds_from_genomic.fna --force
 
 jbrowse add-track Orthoebolavirus_restonense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_restonense.fna,Orthoebolavirus_restonense_cds_from_genomic.fna,Orthoebolavirus_restonense_rna_from_genomic.fna --force
@@ -146,5 +153,7 @@ jbrowse add-track Orthoebolavirus_sudanense_sorted.gff.gz --out $APACHE_ROOT/jbr
 jbrowse add-track Orthoebolavirus_taiense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_taiense.fna,Orthoebolavirus_taiense_cds_from_genomic.fna,Orthoebolavirus_taiense_rna_from_genomic.fna --force
 
 jbrowse add-track Orthoebolavirus_zairense_sorted.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames=Orthoebolavirus_zairense.fna,Orthoebolavirus_zairense_cds_from_genomic.fna,Orthoebolavirus_zairense_rna_from_genomic.fna --force
+
+jbrowse add-track bombaliense_restonese_comparison.paf --assemblyNames=Orthoebolavirus_restonense.fna,Orthoebolavirus_bombaliense.fna --load copy --out $APACHE_ROOT/jbrowse2
 
 jbrowse text-index --out $APACHE_ROOT/jbrowse2 --force
