@@ -29,7 +29,7 @@ Metadata has been added describing the original source of the RefSeq genome asse
 
 #### Importing bookmarks
 
-Bookmarks highlighting proteins of interest in the feature tracks are available as BED files that can be imported using the instructions in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/blob/main/bookmarks/README.md" target="_blank">bookmarks/README.md</a>.
+If you have not already as a part of the installation guide, bookmarks for highlighting proteins of interest in the feature tracks are available as BED files that can be imported using the instructions in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/tree/main/jbrowse_bookmarks" target="_blank">jbrowse_bookmarks</a> directory.
 
 ![Screenshot 2024-12-08 at 8 16 32 PM](https://github.com/user-attachments/assets/4e8a841d-4504-423f-94f3-f2b3d92c125e)
 
