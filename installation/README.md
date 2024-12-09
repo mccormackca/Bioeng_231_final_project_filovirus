@@ -1,30 +1,59 @@
-this needs clean-up, ignore this for now
+# Installation
 
-end-to-end draft
+[Text]
 
+## EC2 Linux/Unix
+[Text]
+
+### Set (memorable) password in root
+```
 sudo su -
 
 passwd ubuntu
 
 exit
+```
 
+### Clone repository
+
+```
 git clone https://github.com/mccormackca/Bioeng_231_final_project_filovirus.git
 
-cd Bioeng_231_final_project_filovirus/
+# Switch to installation directory
+cd Bioeng_231_final_project_filovirus/installation
+```
 
-(prompted to enter password)
-./setup_scripts/install_linuxbrew.sh
+### Run installation scripts
 
-source ./setup_scripts/install_necessary_tools_1.sh
+```
+# Will prompt you to enter your password
+# Will prompt for RETURN/ENTER to continue
+./install_linuxbrew.sh
 
-./setup_scripts/install_necessary_tools_2.sh
+./install_necessary_tools_i.sh
 
-export APACHE_ROOT='/var/www/html
+# Activate newly dowloaded fnm package
+source ~/.bashrc
 
-./setup_scripts/start_apache_server.sh
+# Will prompt to enter Y for to continue
+./install_necessary_tools_ii.sh
+```
 
-./import_ncbi_data.sh
+### Start Apache server
 
-(ads plugins and other default state for convenience)
-(enter y to overwrite)
+```
+# For use in start_apache_server
+export APACHE_ROOT='/var/www/html'
+
+./start_apache_server.sh
+```
+
+### Import, index, and transform data  
+
+```
+./import_and_configure_ncbi_data.sh
+
+# Ads plugins and other default state for convenience
+# Will prompt to enter y to overwrite)
 cp config.json $APACHE_ROOT/jbrowse2 -i
+```
