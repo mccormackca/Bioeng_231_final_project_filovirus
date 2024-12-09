@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 # download and install Node.js
 fnm use --install-if-missing 20
 # verifies the right Node.js version is in the environment
