@@ -1,11 +1,13 @@
 # Installation
 
-[Text]
+Please follow the below guide below. Currently, this document only supports setup on Amazon Web Services (AWS) Elastic Cloud Compute remote instance with a Linux/Unix image. Please file requests for additional platform support in the "Issues" tab of this repository.
 
-## EC2 Linux/Unix
-[Text]
+## AWS EC2: Linux/Unix
+
+Instructions on EC2 instance setup are out of scope of this guide. Please refer to the web to create a `t2.micro` instance  `ubuntu` instance with disk space of 30 GiB to accomodate additional viral genomes that may be added to this project in the future
 
 ### Set (memorable) password in root
+
 ```
 sudo su -
 
@@ -54,6 +56,8 @@ export APACHE_ROOT='/var/www/html'
 ./import_and_configure_ncbi_data.sh
 
 # Ads plugins and other default state for convenience
-# Will prompt to enter y to overwrite)
+# Will prompt to enter Y for to continue
 cp config.json $APACHE_ROOT/jbrowse2 -i
 ```
+
+You are now done! Visit http://your-ec2-public-ip-address/jbrowse2/ to begin importing sessions and bookmarks.
