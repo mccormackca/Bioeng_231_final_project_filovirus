@@ -1,10 +1,17 @@
-# Orthoebolavirus Jbrowse2 Genome Browser
+# Orthoebolavirus JBrowse2 Genome Browser
 _Authors: Avani Ghate, Aziz Kamoun, Jieshan Liu, Caroline McCormack_
 
-The Orthoebolavirus Jbrowse2 Genome Browser is a tool for visualizing and exploring the RefSeq genomes for five species in the genus *Orthoebolavirus*. The available views and features highlight the phylogenetic relationships between species and characterize proteins of interest, chosen for their roles in viral transmission and replication.
+The Orthoebolavirus [JBrowse2 Genome Browser](https://jbrowse.org/jb2/) is a tool for visualizing and exploring the RefSeq genomes for five species in the genus *Orthoebolavirus*. The available views and features highlight the phylogenetic relationships between species and characterize proteins of interest, chosen for their roles in viral transmission and replication.
 
-## Setup
-Instructions for setting up and configuring this instance of the Jbrowse2 the genome browser can be found in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/blob/main/setup_scripts/README.md" target="_blank">setup_scripts/README.md</a>.
+## Table of Contents
+1. Installation
+2. Global Linear Genome View with Feature Annotations
+3. Multiple Sequence Alignments
+4. Protein Structures and Amino Acid Sequences
+5. Dotplots and Synteny
+
+## Installation
+Instructions for setting up and configuring this instance of the JBrowse2 the genome browser can be found in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/blob/main/setup_scripts/README.md" target="_blank">setup_scripts/README.md</a>.
 
 ## Global Linear Genome View with Feature Annotations
 
@@ -67,7 +74,7 @@ The above URLs can be copied and pasted into the Jbrowse MSA view:
 
 ![Screenshot 2024-12-08 at 8 10 11 PM](https://github.com/user-attachments/assets/69744db8-01ac-41da-9628-497ea239daac)
 
-## Dot plots and linear synteny
+## Dotplots and Synteny
 <a href="http://18.191.252.86/jbrowse2/?session=share-O7LGR6_SBo&password=zEFH8" target="_blank">Begin exploring here</a>: visualize the dotplot and syteney views for two selected genomes. Continue reading below for further instructions on how to leverage and interpet this view.
 
 ![Screenshot 2024-12-08 at 8 01 34 PM](https://github.com/user-attachments/assets/69d24bd0-497e-48a1-a5cd-c28a10da1787)
