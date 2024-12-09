@@ -34,7 +34,7 @@ cd Bioeng_231_final_project_filovirus/installation
 
 ./install_necessary_tools_i.sh
 
-# Activate newly dowloaded fnm package
+# Activate newly downloaded fnm package
 source ~/.bashrc
 
 # Will prompt to enter Y for to continue
