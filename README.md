@@ -15,7 +15,7 @@ Instructions for setting up and configuring this instance of the JBrowse2 the ge
 
 ## Global Linear Genome View with Feature Annotations
 
-<a href="http://18.191.252.86/jbrowse2/?session=share-MvULDQhTxo&password=YEDVP" target="_blank">Begin exploring here</a>: visualize an overview of five *Orthoebolavirus* genomes and their genomic features. Continue reading below for further instructions on how to leverage and interpet this view.
+<a href="http://18.191.252.86/jbrowse2/?session=share-MvULDQhTxo&password=YEDVP" target="_blank">Begin exploring here</a>: visualize an overview of five *Orthoebolavirus* genomes and their genomic features. Descriptions and other information about each feature can be accessed by clicking on the feature. Continue reading below for further instructions on how to leverage and interpet this view.
 
 ![Screenshot 2024-12-08 at 7 54 37 PM](https://github.com/user-attachments/assets/a3261712-b929-4920-b560-2db052a7d403)
 
@@ -37,7 +37,7 @@ If you have not already as a part of the installation guide, bookmarks for highl
 
 ## Multiple Sequence Alignments
 
-<a href="http://18.191.252.86/jbrowse2/?session=share-1pr93aQlwA&password=IYAAm" target="_blank">Begin exploring here</a>: visualize multiple sequence alignments and phylogenetic trees. Continue reading below for further instructions on how to leverage and interpet this view.
+<a href="http://18.191.252.86/jbrowse2/?session=share-1pr93aQlwA&password=IYAAm" target="_blank">Begin exploring here</a>: visualize multiple sequence alignments and phylogenetic trees. Phylogenetic trees provide insight into evolutionary relationships between species, and the MSAs can be used to identify conserved and variable regions. Continue reading below for further instructions on how to leverage and interpet this view.
 
 ![Screenshot 2024-12-08 at 7 58 11 PM](https://github.com/user-attachments/assets/8f11dae0-c00d-4856-a5bc-d66a20d90aa0)
 
