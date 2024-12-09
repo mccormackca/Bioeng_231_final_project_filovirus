@@ -15,6 +15,7 @@ sudo su -
 # Will prompt to enter new password twice
 passwd ubuntu
 
+# Exit root
 exit
 ```
 
