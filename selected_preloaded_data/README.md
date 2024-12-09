@@ -6,23 +6,23 @@ Pre-loaded multiple sequence alignment (MSA) and phylogenetic tree files are pro
 The multiple sequence alignment Clustal Omega requires ~1 GB of available RAM. If your system has less than 1 GB available RAM, use swap memory to free up additional RAM. Swap memory can be configured with the code below.
 
 ```
-#Navigate to your root directory
-cd /
+# Navigate to your root directory
+cd ~
 
-#create a swapfile in the root directory
-#make the swapfile the same size as your system's RAM
+# create a swapfile in the root directory
+# make the swapfile the same size as your system's RAM
 sudo fallocate -l 1G /swapfile
 
-#set permissions for the swapfile
+# set permissions for the swapfile
 sudo chmod 600 /swapfile
 
-#set up swap space
+# set up swap space
 sudo mkswap /swapfile
 
-#turn on swap space
+# turn on swap space
 sudo swapon /swapfile
 
-#make the swap memory permanently enabled
+# make the swap memory permanently enabled
 sudo cp /etc/fstab /etc/fstab.bak
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
@@ -33,7 +33,7 @@ https://www.geeksforgeeks.org/how-to-add-swap-space-on-ubuntu-20-04/
 
 Multiple sequence alignments were performed with Clustal Omega (v. 1.2.4). In order to reduce the time and memory complexity, the default clustering parameters were used because they use the mBed algorithm to make a guide tree with rather than using the full pariwise distance matrix. IQtree2 (2.0.7 for Linux 64-bit) was used to generate phylogenetic trees based on the multiple sequence alignments given by Clustal Omega.
 
-The code used to generate the alignments and phylogenetic trees is available in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/main/selected_preloaded_data/scripts/generate_MSAs_and_trees.sh" target="_blank">selected_preloaded_data/scripts/generate_MSAs_and_trees.sh</a>
+The code used to generate the alignments and phylogenetic trees is available in <a href="https://github.com/mccormackca/Bioeng_231_final_project_filovirus/main/selected_preloaded_data/scripts/generate_MSAs_and_trees.sh" target="_blank">selected_preloaded_data/scripts/generate_MSAs_and_trees.sh</a>.
 
 Citations:
 1. Sievers, Fabian, et al. “Fast, Scalable Generation of High‐quality Protein Multiple Sequence Alignments Using Clustal Omega.” Molecular Systems Biology, vol. 7, no. 1, Jan. 2011, p. 539. DOI.org (Crossref), https://doi.org/10.1038/msb.2011.75.
