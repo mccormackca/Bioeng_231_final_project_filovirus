@@ -1,0 +1,392 @@
+{
+  "session": {
+    "drawerPosition": "right",
+    "drawerWidth": 384,
+    "widgets": {
+      "GridBookmark": {
+        "id": "GridBookmark",
+        "type": "GridBookmarkWidget"
+      },
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "view": "eETjmDNul44uiAzQEMsqz",
+        "faceted": {
+          "filterText": "",
+          "showSparse": false,
+          "showFilters": true,
+          "showOptions": false,
+          "panelWidth": 400
+        }
+      },
+      "baseFeature": {
+        "finalizedFeatureData": {
+          "id": "gene-REBOVgp2",
+          "dbxref": "GeneID:955189",
+          "name": "VP35",
+          "gbkey": "Gene",
+          "gene": "VP35",
+          "gene_biotype": "protein_coding",
+          "locus_tag": "REBOVgp2",
+          "start": 3018,
+          "end": 4413,
+          "strand": 1,
+          "type": "gene",
+          "source": "RefSeq",
+          "refName": "NC_004161.1",
+          "derived_features": [],
+          "phase": null,
+          "score": null,
+          "subfeatures": [
+            {
+              "strand": 1,
+              "id": "rna-REBOVgp2",
+              "parent": "gene-REBOVgp2",
+              "dbxref": "GeneID:955189",
+              "gbkey": "mRNA",
+              "gene": "VP35",
+              "locus_tag": "REBOVgp2",
+              "product": "VP35",
+              "start": 3018,
+              "end": 4413,
+              "type": "mRNA",
+              "source": "RefSeq",
+              "refName": "NC_004161.1",
+              "derived_features": [],
+              "phase": null,
+              "score": null,
+              "subfeatures": [
+                {
+                  "strand": 1,
+                  "id": "exon-REBOVgp2-1",
+                  "parent": "rna-REBOVgp2",
+                  "dbxref": "GeneID:955189",
+                  "gbkey": "mRNA",
+                  "gene": "VP35",
+                  "locus_tag": "REBOVgp2",
+                  "product": "VP35",
+                  "start": 3018,
+                  "end": 4413,
+                  "type": "exon",
+                  "source": "RefSeq",
+                  "refName": "NC_004161.1",
+                  "derived_features": [],
+                  "phase": null,
+                  "score": null,
+                  "subfeatures": [],
+                  "uniqueId": "-2013208066-offset-521628-0-0",
+                  "parentId": "-2013208066-offset-521628-0",
+                  "__jbrowsefmt": {}
+                },
+                {
+                  "strand": 1,
+                  "id": "cds-NP_690581.1",
+                  "parent": "rna-REBOVgp2",
+                  "dbxref": [
+                    "GenBank:NP_690581.1",
+                    "GeneID:955189"
+                  ],
+                  "name": "NP_690581.1",
+                  "gbkey": "CDS",
+                  "gene": "VP35",
+                  "locus_tag": "REBOVgp2",
+                  "product": "polymerase complex protein",
+                  "protein_id": "NP_690581.1",
+                  "start": 3154,
+                  "end": 4144,
+                  "type": "CDS",
+                  "source": "RefSeq",
+                  "refName": "NC_004161.1",
+                  "derived_features": [],
+                  "phase": 0,
+                  "score": null,
+                  "subfeatures": [],
+                  "uniqueId": "-2013208066-offset-521628-0-1",
+                  "parentId": "-2013208066-offset-521628-0",
+                  "__jbrowsefmt": {}
+                }
+              ],
+              "uniqueId": "-2013208066-offset-521628-0",
+              "parentId": "-2013208066-offset-521628",
+              "__jbrowsefmt": {}
+            },
+            {
+              "strand": 1,
+              "id": "id-REBOVgp2",
+              "parent": "gene-REBOVgp2",
+              "dbxref": "GeneID:955189",
+              "note": "VP35",
+              "gbkey": "regulatory",
+              "gene": "VP35",
+              "locus_tag": "REBOVgp2",
+              "regulatory_class": "polyA_signal_sequence",
+              "start": 4402,
+              "end": 4413,
+              "type": "polyA_signal_sequence",
+              "source": "RefSeq",
+              "refName": "NC_004161.1",
+              "derived_features": [],
+              "phase": null,
+              "score": null,
+              "subfeatures": [],
+              "uniqueId": "-2013208066-offset-521628-1",
+              "parentId": "-2013208066-offset-521628",
+              "__jbrowsefmt": {}
+            }
+          ],
+          "uniqueId": "-2013208066-offset-521628",
+          "__jbrowsefmt": {}
+        },
+        "id": "baseFeature",
+        "type": "BaseFeatureWidget",
+        "view": "eETjmDNul44uiAzQEMsqz",
+        "track": "nMB19rRJl9WEHVoBEMyxW",
+        "trackId": "Orthoebolavirus_restonense_sorted.gff",
+        "trackType": "FeatureTrack",
+        "maxDepth": 99999,
+        "sequenceFeatureDetails": {}
+      }
+    },
+    "activeWidgets": {
+      "baseFeature": "baseFeature"
+    },
+    "minimized": false,
+    "id": "7jq3WcwfiEgiAgvo5_swp",
+    "name": "Global linear genome view",
+    "margin": 0,
+    "views": [
+      {
+        "id": "bjfDptbQrkfLWLlsEic-4",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": -54,
+        "bpPerPx": 19.01068184087051,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NC_039345.1",
+            "start": 0,
+            "end": 19043,
+            "assemblyName": "Orthoebolavirus_bombaliense.fna"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "Egg8ZQFnBmFZscXm8Yss7",
+            "type": "FeatureTrack",
+            "configuration": "Orthoebolavirus_bombaliense_sorted.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "0E02TFIWJpVSO5REvlZBN",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 175,
+                "configuration": "Orthoebolavirus_bombaliense_sorted.gff-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "eETjmDNul44uiAzQEMsqz",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": -81,
+        "bpPerPx": 18.85893980233602,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NC_004161.1",
+            "start": 0,
+            "end": 18891,
+            "assemblyName": "Orthoebolavirus_restonense.fna"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "nMB19rRJl9WEHVoBEMyxW",
+            "type": "FeatureTrack",
+            "configuration": "Orthoebolavirus_restonense_sorted.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "gbbbiI8V0kUECuKyJG20A",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 285,
+                "configuration": "Orthoebolavirus_restonense_sorted.gff-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "MnawuX7dcYNYlKQZ1K_Nm",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": -86,
+        "bpPerPx": 18.842966956174504,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NC_006432.1",
+            "start": 0,
+            "end": 18875,
+            "assemblyName": "Orthoebolavirus_sudanense.fna"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "0Q9tr-EHS8GbFOL2uguH1",
+            "type": "FeatureTrack",
+            "configuration": "Orthoebolavirus_sudanense_sorted.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "JELZJK30sDrlsvm8KA8Va",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 235,
+                "configuration": "Orthoebolavirus_sudanense_sorted.gff-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "elwlN8cvKBGJYCx8SwuqT",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": -86,
+        "bpPerPx": 18.902865129280222,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NC_014372.1",
+            "start": 0,
+            "end": 18935,
+            "assemblyName": "Orthoebolavirus_taiense.fna"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "tJ4USWHoKmsWMZME55g1t",
+            "type": "FeatureTrack",
+            "configuration": "Orthoebolavirus_taiense_sorted.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "_-MaZ5CphuYDK3_re-Tf8",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 348,
+                "configuration": "Orthoebolavirus_taiense_sorted.gff-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "n-GFGg5EcjIVfT_4tY9IC",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": -59,
+        "bpPerPx": 18.92682439852251,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NC_002549.1",
+            "start": 0,
+            "end": 18959,
+            "assemblyName": "Orthoebolavirus_zairense.fna"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "SScGmuIJhobzGX8-IzRqV",
+            "type": "FeatureTrack",
+            "configuration": "Orthoebolavirus_zairense_sorted.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "v9qZhp9zpKlR2R81Aioxa",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 261,
+                "configuration": "Orthoebolavirus_zairense_sorted.gff-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "eETjmDNul44uiAzQEMsqz",
+    "sessionPlugins": []
+  }
+}

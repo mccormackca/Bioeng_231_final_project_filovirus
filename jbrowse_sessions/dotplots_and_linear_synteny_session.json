@@ -1,0 +1,413 @@
+{
+  "session": {
+    "drawerPosition": "right",
+    "drawerWidth": 384,
+    "widgets": {
+      "GridBookmark": {
+        "id": "GridBookmark",
+        "type": "GridBookmarkWidget"
+      },
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "faceted": {
+          "filterText": "",
+          "showSparse": false,
+          "showFilters": true,
+          "showOptions": false,
+          "panelWidth": 400
+        }
+      },
+      "baseFeature": {
+        "finalizedFeatureData": {
+          "uniqueId": "0Orthoebolavirus_restonense.fna",
+          "assemblyName": "Orthoebolavirus_restonense.fna",
+          "start": 46,
+          "end": 18891,
+          "type": "match",
+          "refName": "NC_004161.1",
+          "strand": 1,
+          "mappingQual": 60,
+          "tp": "P",
+          "cm": "14",
+          "s1": "159",
+          "s2": "0",
+          "dv": "0.0046",
+          "rl": "0",
+          "CIGAR": null,
+          "syntenyId": 0,
+          "identity": 0.009841069361119881,
+          "numMatches": 187,
+          "blockLen": 19002,
+          "mate": {
+            "start": 46,
+            "end": 19042,
+            "refName": "NC_039345.1",
+            "assemblyName": "Orthoebolavirus_bombaliense.fna"
+          },
+          "__jbrowsefmt": {}
+        },
+        "id": "baseFeature",
+        "type": "BaseFeatureWidget",
+        "view": "TIfjeevEzlPmwK6t2E1QK",
+        "track": "Nrf5paY0lIWECQIn5toP_",
+        "trackId": "bombaliense_restonese_comparison",
+        "trackType": "SyntenyTrack",
+        "maxDepth": 99999,
+        "sequenceFeatureDetails": {}
+      }
+    },
+    "activeWidgets": {
+      "baseFeature": "baseFeature"
+    },
+    "minimized": false,
+    "id": "IrokiI2pkexsM7xisa7qT",
+    "name": "Dotplot & synteny",
+    "margin": 0,
+    "views": [
+      {
+        "id": "iXAjHoxzHZSlT13hHg5kK",
+        "displayName": "Dotplot: Restonese & Bombaliense",
+        "minimized": false,
+        "type": "DotplotView",
+        "height": 293,
+        "borderSize": 20,
+        "tickSize": 5,
+        "vtextRotation": 0,
+        "htextRotation": -90,
+        "fontSize": 15,
+        "trackSelectorType": "hierarchical",
+        "assemblyNames": [
+          "Orthoebolavirus_restonense.fna",
+          "Orthoebolavirus_bombaliense.fna"
+        ],
+        "drawCigar": true,
+        "hview": {
+          "id": "IQLLWtJPOAAhf_4Wm2Ikk",
+          "displayedRegions": [
+            {
+              "refName": "NC_004161.1",
+              "start": 0,
+              "end": 18891,
+              "assemblyName": "Orthoebolavirus_restonense.fna"
+            }
+          ],
+          "bpPerPx": 14.549200351388103,
+          "offsetPx": 163,
+          "interRegionPaddingWidth": 0,
+          "minimumBlockWidth": 0
+        },
+        "vview": {
+          "id": "ucZzX-Gy7_E9fOtSYvWdL",
+          "displayedRegions": [
+            {
+              "refName": "NC_039345.1",
+              "start": 0,
+              "end": 19043,
+              "assemblyName": "Orthoebolavirus_bombaliense.fna"
+            }
+          ],
+          "bpPerPx": 134.65385040327035,
+          "offsetPx": -14,
+          "interRegionPaddingWidth": 0,
+          "minimumBlockWidth": 0
+        },
+        "tracks": [
+          {
+            "id": "MnCGht3mFvC4ls_0TRUjS",
+            "type": "SyntenyTrack",
+            "configuration": "bombaliense_restonese_comparison",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "HYV1VG7DDQmFF_bV46Y-M",
+                "type": "DotplotDisplay",
+                "configuration": "bombaliense_restonese_comparison-DotplotDisplay"
+              }
+            ]
+          }
+        ],
+        "viewTrackConfigs": []
+      },
+      {
+        "id": "TIfjeevEzlPmwK6t2E1QK",
+        "displayName": "Syteney: Restonense & Bombaliense",
+        "minimized": false,
+        "type": "LinearSyntenyView",
+        "trackSelectorType": "hierarchical",
+        "showIntraviewLinks": true,
+        "interactToggled": false,
+        "levels": [
+          {
+            "id": "WZ5tdkmtWaDIrTRtMEIoM",
+            "type": "LinearSyntenyViewHelper",
+            "tracks": [
+              {
+                "id": "Nrf5paY0lIWECQIn5toP_",
+                "type": "SyntenyTrack",
+                "configuration": "bombaliense_restonese_comparison",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "t1dCrec7XD3ovO9s31FUI",
+                    "type": "LinearSyntenyDisplay",
+                    "configuration": "bombaliense_restonese_comparison-LinearSyntenyDisplay"
+                  }
+                ]
+              }
+            ],
+            "height": 100,
+            "level": 0
+          }
+        ],
+        "views": [
+          {
+            "id": "9GPxtgsSOHtopdzxo8q-a",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 120918,
+            "bpPerPx": 0.05654633620689655,
+            "displayedRegions": [
+              {
+                "refName": "NC_004161.1",
+                "start": 0,
+                "end": 18891,
+                "assemblyName": "Orthoebolavirus_restonense.fna"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "oeNl-8ySjFWpn5sGEJsBg",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "Orthoebolavirus_restonense.fna-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "rhXhdds-P9osmeG-enIZk",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 20,
+                    "configuration": "Orthoebolavirus_restonense.fna-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": false,
+                    "showTranslation": false
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          },
+          {
+            "id": "oCxhICAzcJlS-FnzpkY76",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 164986,
+            "bpPerPx": 0.05700131704980843,
+            "displayedRegions": [
+              {
+                "refName": "NC_039345.1",
+                "start": 0,
+                "end": 19043,
+                "assemblyName": "Orthoebolavirus_bombaliense.fna"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "pOFmqjjsIj5mX5s0I_hUE",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "Orthoebolavirus_bombaliense.fna-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "PS6hB49nkVoeqlYn_iHAe",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 20,
+                    "configuration": "Orthoebolavirus_bombaliense.fna-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": false,
+                    "showTranslation": false
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          },
+          {
+            "id": "jzIARAYz8mnJ1YS1vZYXl",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 77436,
+            "bpPerPx": 0.05649844348659004,
+            "displayedRegions": [
+              {
+                "refName": "NC_006432.1",
+                "start": 0,
+                "end": 18875,
+                "assemblyName": "Orthoebolavirus_sudanense.fna"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "nYbz7CEMRI_7HhgG-Ziqu",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "Orthoebolavirus_sudanense.fna-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "h8BtlML1RjX76M34JWxp2",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 20,
+                    "configuration": "Orthoebolavirus_sudanense.fna-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": false,
+                    "showTranslation": false
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          },
+          {
+            "id": "T16QQOF4rrdpWEcagpnV1",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 162160,
+            "bpPerPx": 0.05667804118773946,
+            "displayedRegions": [
+              {
+                "refName": "NC_014372.1",
+                "start": 0,
+                "end": 18935,
+                "assemblyName": "Orthoebolavirus_taiense.fna"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "bazR_sVCr5X1fPAYhhsmc",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "Orthoebolavirus_taiense.fna-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "DK3uIhFWYt4UgNpvNXUrJ",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 20,
+                    "configuration": "Orthoebolavirus_taiense.fna-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": false,
+                    "showTranslation": false
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          },
+          {
+            "id": "F6dGyZInFAbKaI7Nf9Ujv",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 166534,
+            "bpPerPx": 0.056749880268199236,
+            "displayedRegions": [
+              {
+                "refName": "NC_002549.1",
+                "start": 0,
+                "end": 18959,
+                "assemblyName": "Orthoebolavirus_zairense.fna"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "X0lS22xiJb4CxhqXeJ0EA",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "Orthoebolavirus_zairense.fna-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "OaAIIY5bD6cn_XuayTaMX",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 20,
+                    "configuration": "Orthoebolavirus_zairense.fna-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": false,
+                    "showTranslation": false
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": false,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": false,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          }
+        ],
+        "viewTrackConfigs": [],
+        "drawCIGAR": true,
+        "drawCurves": false
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "iXAjHoxzHZSlT13hHg5kK",
+    "sessionPlugins": []
+  }
+}
