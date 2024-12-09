@@ -1,0 +1,61 @@
+{
+  "session": {
+    "drawerPosition": "right",
+    "drawerWidth": 384,
+    "widgets": {},
+    "activeWidgets": {},
+    "minimized": false,
+    "id": "gKgtDe0JXTv5dqY3BT6uw",
+    "name": "Multiple sequence alignment",
+    "margin": 0,
+    "views": [
+      {
+        "data": {
+          "tree": "",
+          "msa": "",
+          "treeMetadata": ""
+        },
+        "id": "jbqW6r3H1JXiImUCtoAQI",
+        "displayName": "MSA",
+        "minimized": false,
+        "drawLabels": true,
+        "labelsAlignRight": false,
+        "treeAreaWidth": 400,
+        "treeWidth": 329.15283203125,
+        "treeWidthMatchesArea": true,
+        "showBranchLen": true,
+        "drawTree": true,
+        "drawNodeBubbles": true,
+        "bgColor": true,
+        "colorSchemeName": "maeditor",
+        "showDomains": false,
+        "allowedGappyness": 100,
+        "contrastLettering": true,
+        "subFeatureRows": false,
+        "type": "MsaView",
+        "drawMsaLetters": true,
+        "hideGaps": true,
+        "drawTreeText": true,
+        "height": 550,
+        "rowHeight": 18,
+        "scrollY": 0,
+        "scrollX": 0,
+        "colWidth": 14,
+        "currentAlignment": 0,
+        "collapsed": [],
+        "collapsedLeaves": [],
+        "turnedOffTracks": {},
+        "featureFilters": {},
+        "connectedHighlights": [],
+        "zoomToBaseLevel": false
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "jbqW6r3H1JXiImUCtoAQI",
+    "sessionPlugins": []
+  }
+}

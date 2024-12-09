@@ -1,0 +1,290 @@
+{
+  "session": {
+    "drawerPosition": "right",
+    "drawerWidth": 384,
+    "widgets": {
+      "GridBookmark": {
+        "id": "GridBookmark",
+        "type": "GridBookmarkWidget"
+      },
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "view": "Iis37DcRYU1MPbYf5YGIH",
+        "faceted": {
+          "filterText": "",
+          "showSparse": false,
+          "showFilters": true,
+          "showOptions": false,
+          "panelWidth": 400
+        }
+      }
+    },
+    "activeWidgets": {},
+    "minimized": false,
+    "id": "ZnOm4poJMv-sSjfMAeuQo",
+    "name": "Protein structures & amino acid sequeces",
+    "margin": 0,
+    "views": [
+      {
+        "id": "rDghgKcfkeMCgu36Q-Neh",
+        "displayName": "Protein structure viewer",
+        "minimized": false,
+        "type": "ProteinView",
+        "structures": [],
+        "showControls": false,
+        "height": 650,
+        "showHighlight": false,
+        "zoomToBaseLevel": true,
+        "showAlignment": false
+      },
+      {
+        "id": "LWR7mUVl42dpcTTqHfTli",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": 4244.1,
+        "bpPerPx": 0.04,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "YP_009513274.1",
+            "start": 0,
+            "end": 739,
+            "assemblyName": "Orthoebolavirus_bombaliense_protein.faa"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "Ghhqpbz4yFEKevVYE4dnb",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "Orthoebolavirus_bombaliense_protein.faa-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "s_KUelcaFJldiUUNKp-rt",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 20,
+                "configuration": "Orthoebolavirus_bombaliense_protein.faa-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": false,
+                "showTranslation": false
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "Iis37DcRYU1MPbYf5YGIH",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": 6687,
+        "bpPerPx": 0.04,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NP_690580.1",
+            "start": 0,
+            "end": 739,
+            "assemblyName": "Orthoebolavirus_restonense_protein.faa"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "VoOdKRWE8RA5mg3GnMMgx",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "Orthoebolavirus_restonense_protein.faa-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "tHAMO--8WLuHlU4eL-ZIY",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 20,
+                "configuration": "Orthoebolavirus_restonense_protein.faa-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": false,
+                "showTranslation": false
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "-_dUqZ0S44U7MR34DXvB_",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": 2017,
+        "bpPerPx": 0.04,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "YP_009246341.1",
+            "start": 0,
+            "end": 318,
+            "assemblyName": "Orthoebolavirus_sudanense_protein.faa"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "zaOOfQT-bsfD0uOs4gNc6",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "Orthoebolavirus_sudanense_protein.faa-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "IcDZ0LiFlYiGOfOMHpLRH",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 20,
+                "configuration": "Orthoebolavirus_sudanense_protein.faa-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": false,
+                "showTranslation": false
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "Pq3Lh--2a5LoAig3lDFVf",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": 6688,
+        "bpPerPx": 0.04,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "YP_003815423.1",
+            "start": 0,
+            "end": 739,
+            "assemblyName": "Orthoebolavirus_taiense_protein.faa"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "bm4EW7yRLdDEPPIkfrFC_",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "Orthoebolavirus_taiense_protein.faa-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "8NhsV6vsZk_3cKIGTZq90",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 20,
+                "configuration": "Orthoebolavirus_taiense_protein.faa-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": false,
+                "showTranslation": false
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      },
+      {
+        "id": "x8gHbyeWI_YrqSnuqlF6F",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": 6693,
+        "bpPerPx": 0.04,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "NP_066243.1",
+            "start": 0,
+            "end": 739,
+            "assemblyName": "Orthoebolavirus_zairense_protein.faa"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "tA4t9VQoh0lmmYKdriU98",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "Orthoebolavirus_zairense_protein.faa-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "3oUSxCq2ma3mvBkX3_pWq",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 20,
+                "configuration": "Orthoebolavirus_zairense_protein.faa-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": false,
+                "showTranslation": false
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": false,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "rDghgKcfkeMCgu36Q-Neh",
+    "sessionPlugins": []
+  }
+}
