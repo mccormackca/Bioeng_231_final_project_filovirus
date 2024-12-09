@@ -141,8 +141,6 @@ for file in *.gff; do
 done
 
 # generate paf file for dotplot and synteny view
-sudo apt install minimap
-
 minimap2 -x map-ont Orthoebolavirus_bombaliense.fna Orthoebolavirus_restonense.fna > bombaliense_restonese_comparison.paf
 
 # add tracks to jbrowse
