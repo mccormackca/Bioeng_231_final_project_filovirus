@@ -21,7 +21,9 @@ Instructions for setting up and configuring this instance of the JBrowse2 the ge
 
 #### Accessing sequence and feature metadata
 
-Metadata has been added describing the original source of the RefSeq genome assembly, including the host species, strain (if applicable), location, year, and reference. This information is available in  "About track" for all genomic DNA, RNA and DNA cds, and protein files. <img width="1440" alt="View_metadata" src="https://github.com/user-attachments/assets/c8b28ea6-39b8-4334-9f10-f7d0ce1b05d2">
+Metadata has been added describing the original source of the RefSeq genome assembly, including the host species, strain (if applicable), location, year, and reference. This information is available in  "About track" for all genomic DNA, RNA and DNA cds, and protein files. 
+
+<img width="1440" alt="View_metadata" src="https://github.com/user-attachments/assets/c8b28ea6-39b8-4334-9f10-f7d0ce1b05d2">
 
 <p align="center" width="100%">
     <img src="https://github.com/user-attachments/assets/f33ba9ce-28dd-4714-9686-b6dc7c7a85f0">
