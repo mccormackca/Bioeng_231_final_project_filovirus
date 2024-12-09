@@ -60,4 +60,4 @@ export APACHE_ROOT='/var/www/html'
 cp config.json $APACHE_ROOT/jbrowse2 -i
 ```
 
-You are now done! Visit http://your-ec2-public-ip-address/jbrowse2/ to begin importing sessions and bookmarks.
+You are now done! Visit http://your-ec2-public-ip-address/jbrowse2/ and follow the instructions in (1) [jbrowse_sessions/README.md](https://github.com/mccormackca/Bioeng_231_final_project_filovirus/blob/main/jbrowse_sessions/README.md) and (2) [jbrowse_bookmarks/README.md](https://github.com/mccormackca/Bioeng_231_final_project_filovirus/blob/main/jbrowse_bookmarks/README.md).
