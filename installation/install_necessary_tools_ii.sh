@@ -11,7 +11,6 @@ npm -v # should print `10.8.2`
 npm install -g @jbrowse/cli
 jbrowse --version
 
-
 # System dependencies: install wget (if not already installed), apache2, samtools, and tabix.
 
 # wget is a tool for retrieving files over widely-used Internet protocols like HTTP and FTP.
