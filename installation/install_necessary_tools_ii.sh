@@ -1,3 +1,10 @@
+# download and install Node.js
+fnm use --install-if-missing 20
+# verifies the right Node.js version is in the environment
+node -v # should print `v20.18.0`
+# verifies the right npm version is in the environment
+npm -v # should print `10.8.2`
+
 npm install -g @jbrowse/cli
 jbrowse --version
 
