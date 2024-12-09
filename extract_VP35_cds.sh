@@ -15,5 +15,5 @@ echo "lcl|NC_006432.1_cds_YP_138521.1_2" > "id_vp35.txt"
 seqtk subseq Orthoebolavirus_sudanense_cds_from_genomic.fna id_vp35.txt > Orthoebolavirus_sudanense_cds_VP35.fasta
 echo "lcl|NC_039345.1_cds_YP_009513275.1_2" > "id_vp35.txt"
 seqtk subseq Orthoebolavirus_bombaliense_cds_from_genomic.fna id_vp35.txt > Orthoebolavirus_bombaliense_cds_VP35.fasta
-echo "lcl|NC_002549.1_cds_NP_066244.1_2" > "id_vp35.txt"
+echo "lcl|NC_004161.1_cds_NP_690581.1_2" > "id_vp35.txt"
 seqtk subseq Orthoebolavirus_restonense_cds_from_genomic.fna id_vp35.txt > Orthoebolavirus_restonense_cds_VP35.fasta
