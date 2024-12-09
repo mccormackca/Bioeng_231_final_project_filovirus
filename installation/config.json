@@ -625,6 +625,25 @@
       "Orthoebolavirus_zairense_cds_from_genomic.fna",
       "Orthoebolavirus_zairense_rna_from_genomic.fna"
     ]
+  }, {
+    "type": "SyntenyTrack",
+    "trackId": "bombaliense_restonese_comparison",
+    "name": "bombaliense_restonese_comparison",
+    "adapter": {
+      "type": "PAFAdapter",
+      "pafLocation": {
+        "uri": "bombaliense_restonese_comparison.paf",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Orthoebolavirus_restonense.fna",
+        "Orthoebolavirus_bombaliense.fna"
+      ]
+    },
+    "assemblyNames": [
+      "Orthoebolavirus_restonense.fna",
+      "Orthoebolavirus_bombaliense.fna"
+    ]
   }],
   "aggregateTextSearchAdapters": [{
     "type": "TrixTextSearchAdapter",
